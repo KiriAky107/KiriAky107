@@ -22,11 +22,17 @@
 </p>
 
 <p align="center">
-  Undergraduate Student (2024–2028) | Aspiring Full‑stack & AI Application Engineer | Anime & Piano Enthusiast 🎹
+  🎓 <strong style="color: #8B5F7C;">Undergraduate Student</strong> (2024 – Present)<br>
+  💻 <em style="color: #2C3E50; font-weight: 500;">Aspiring Full‑stack & AI Application Engineer</em><br>
+  🎹 <span style="text-decoration: underline; text-decoration-color: #C06C84;">Anime & Piano Enthusiast</span><br>
+  📺 <strong style="color: #C06C84;">Favorite Anime:</strong> Mushoku Tensei · Sword Art Online · Kara no Kyoukai · Fate Series · Clannad<br>
+  ✨ <strong style="color: #C06C84;">Favorite Visual Novel:</strong> Mahoutsukai no Yoru · ATRI · CLANNAD · Subarashiki Hibi · 9-nine- Series · Steins;Gate · Sakura no Uta<br>
+  🎶 <strong style="color: #C06C84;">Favorite Music Style:</strong> <span style="color: #8B5F7C;">Classical Piano</span> · <span style="color: #8B5F7C;">Japanese Light Music</span><br>
+  📚 <strong style="color: #C06C84;">Philosophy:</strong> <span style="font-weight: 500; color: #2C3E50;">Dialectical Materialism</span> · <span style="font-weight: 500; color: #2C3E50;">Historical Materialism</span><br>
 </p>
 
 <p align="center">
-  <img src="images/1.png" alt="无职转生" style="display:block;margin-left: auto;margin-right: auto;">
+  <img src="images/无职转生.png" alt="无职转生" style="display:block;margin-left: auto;margin-right: auto;">
 </p>
 
 
@@ -66,9 +72,27 @@
 
 ## 🛠 Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,react,nodejs,docker,git,linux&theme=dark" alt="Tech Stack" />
-</p>
+<div align="center">
+  <h3>💻 Frontend</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,tailwind&theme=dark" />
+  </p>
+  <h3>⚙️ Backend & Database</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=cpp,java,python,nodejs,fastapi,flask,postgres,mysql,redis,mongodb&theme=dark" />
+  </p>
+  <h3>🐳 DevOps & Tools</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vim,postman,vscode&theme=dark" />
+  </p>
+  <h3>🧠 AI & Data Science</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&theme=dark" />
+  </p>
+  <p>
+    <em>✨ 正在探索：LLM应用开发 · Agent框架 ✨</em>
+  </p>
+</div>
 
 ---
 
