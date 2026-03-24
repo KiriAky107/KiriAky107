@@ -25,6 +25,10 @@
   Undergraduate Student (2024–2028) | Aspiring Full‑stack & AI Application Engineer | Anime & Piano Enthusiast 🎹
 </p>
 
+<p align="center">
+  <img src="images/1.png" alt="无职转生" style="display:block;margin-left: auto;margin-right: auto;">
+</p>
+
 
 
 <p align="center">
