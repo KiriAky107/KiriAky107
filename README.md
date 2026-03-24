@@ -56,10 +56,10 @@
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=KiriAky107&theme=default&show_icons=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%">
+      <img src="./profile/stats.svg" alt="GitHub Stats" width="100%">
     </td>
     <td align="center" width="50%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KiriAky107&theme=default&layout=compact&langs_count=6" alt="Top Languages" width="100%">
+      <img src="./profile/top-langs.svg" alt="Top Languages" width="100%">
     </td>
   </tr>
 </table>
