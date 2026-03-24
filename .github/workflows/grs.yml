@@ -2,8 +2,11 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # 每天 UTC 3:00 自动运行
-  workflow_dispatch:      # 允许手动触发
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   
 
 jobs:
   build:
@@ -14,10 +17,10 @@ jobs:
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          card: stats  
-          options: username=${{ github.repository_owner }}&show_icons=true  
-          path: profile/stats.svg  
-          token: ${{ secrets.GITHUB_TOKEN }}  
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
         run: |
