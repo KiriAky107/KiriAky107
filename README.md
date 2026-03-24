@@ -25,7 +25,7 @@
   🎓 <strong style="color: #8B5F7C;">Undergraduate Student</strong> (2024 – Present)<br>
   💻 <em style="color: #2C3E50; font-weight: 500;">Aspiring Full‑stack & AI Application Engineer</em><br>
   🎹 <span style="text-decoration: underline; text-decoration-color: #C06C84;">Anime & Piano Enthusiast</span><br>
-  📺 <strong style="color: #C06C84;">Favorite Anime:</strong> Mushoku Tensei · Sword Art Online · Kara no Kyoukai · Fate Series · Clannad<br>
+  📺 <strong style="color: #C06C84;">Favorite Anime:</strong> Mushoku Tensei · Sword Art Online · Kara no Kyoukai · Your Lie in April · Fate Series · Clannad<br>
   ✨ <strong style="color: #C06C84;">Favorite Visual Novel:</strong> Mahoutsukai no Yoru · ATRI · CLANNAD · Subarashiki Hibi · 9-nine- Series · Steins;Gate · Sakura no Uta<br>
   🎶 <strong style="color: #C06C84;">Favorite Music Style:</strong> <span style="color: #8B5F7C;">Classical Piano</span> · <span style="color: #8B5F7C;">Japanese Light Music</span><br>
   📚 <strong style="color: #C06C84;">Philosophy:</strong> <span style="font-weight: 500; color: #2C3E50;">Dialectical Materialism</span> · <span style="font-weight: 500; color: #2C3E50;">Historical Materialism</span><br>
