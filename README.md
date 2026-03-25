@@ -65,7 +65,7 @@
 </table>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/58A6FF/KiriAky107" alt="GitHub Contribution Chart" />
+  <img src="https://ghchart.rshah.org/409ba5/KiriAky107" alt="KiriAky107h's Blue Github Chart" />
 </p>
 
 ---
