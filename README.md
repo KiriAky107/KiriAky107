@@ -18,7 +18,7 @@
 ## ✨ About Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=500&lines=Welcome+to+My+Profile!+%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%EF%BC%81&pause=500" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=580&lines=Ciallo%EF%BD%9E(%E2%88%A0%E3%83%BB%CF%89%3C)%E2%8C%92%E2%98%86%20Welcome%20to%20My%20Profile!%20%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%EF%BC%81" alt="Typing SVG" />
 </p>
 
 <p align="center">
