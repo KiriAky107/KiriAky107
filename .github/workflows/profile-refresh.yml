@@ -10,7 +10,10 @@ on:
     paths:
       - .github/workflows/profile-refresh.yml
       - .github/profile-3d-settings.json
+      - .github/profile-media.json
       - scripts/check_profile.py
+      - scripts/build_media_preset.py
+      - assets/covers/**
       - README.md
 
 permissions: {}
@@ -46,6 +49,7 @@ jobs:
             profile/top-langs-dark.svg \
             profile/snake-light.svg \
             profile/snake-dark.svg \
+            profile/media.svg \
             profile-3d-contrib/profile-custom.svg
 
       - name: Generate public statistics for light mode
@@ -108,7 +112,38 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/profile-3d-settings.json
 
-      - name: Validate all seven generated images
+      - name: Prepare the media card preset
+        run: |
+          set -euo pipefail
+          python3 scripts/build_media_preset.py --output "$RUNNER_TEMP/media-preset.json"
+          # Metrics mounts this runner directory at /renders in its container.
+          sudo install -D -m 644 -- "$RUNNER_TEMP/media-preset.json" /metrics_renders/media-preset.json
+
+      - name: Generate anime and visual novel cards with light and dark palettes
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34.0
+        with:
+          token: NOT_NEEDED
+          user: ${{ github.repository_owner }}
+          template: classic
+          base: ""
+          base_skip: yes
+          output_action: none
+          filename: media.svg
+          config_presets: /renders/media-preset.json
+          config_output: svg
+          config_display: regular
+          config_padding: 0, 8
+          config_animations: no
+          # The preset already embeds every local cover as a data URI.
+          config_base64: no
+          config_timezone: Asia/Shanghai
+          notice_releases: no
+          optimize: xml
+
+      - name: Collect the rendered media card
+        run: install -D -m 644 -- /metrics_renders/media.svg profile/media.svg
+
+      - name: Validate all eight generated images
         run: python3 scripts/check_profile.py --generated
 
       - name: Upload only validated images
@@ -125,6 +160,7 @@ jobs:
             profile/top-langs-dark.svg
             profile/snake-light.svg
             profile/snake-dark.svg
+            profile/media.svg
             profile-3d-contrib/profile-custom.svg
 
   publish:
@@ -135,10 +171,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Check out the latest main branch
+      - name: Check out this run's source commit
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: main
+          ref: ${{ github.sha }}
           persist-credentials: true
 
       - name: Download this run's validated artifact
@@ -148,7 +184,7 @@ jobs:
           path: ${{ runner.temp }}/profile-generated
           digest-mismatch: error
 
-      - name: Copy the seven expected images
+      - name: Copy the eight expected images
         env:
           PROFILE_ARTIFACT_DIR: ${{ runner.temp }}/profile-generated
         run: |
@@ -160,6 +196,7 @@ jobs:
             profile/top-langs-dark.svg \
             profile/snake-light.svg \
             profile/snake-dark.svg \
+            profile/media.svg \
             profile-3d-contrib/profile-custom.svg
           do
             install -D -m 644 -- "$PROFILE_ARTIFACT_DIR/$profile_file" "$profile_file"
@@ -180,6 +217,7 @@ jobs:
             profile/top-langs-dark.svg \
             profile/snake-light.svg \
             profile/snake-dark.svg \
+            profile/media.svg \
             profile-3d-contrib/profile-custom.svg
           if git diff --cached --quiet; then
             echo "Profile images are already up to date."

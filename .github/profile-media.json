@@ -1,0 +1,141 @@
+{
+  "sections": [
+    {
+      "title": "Anime",
+      "items": [
+        {
+          "id": "mushoku-tensei",
+          "title": "Mushoku Tensei",
+          "url": "https://mushokutensei.jp/",
+          "source": "https://mushokutensei.jp/news/1206-03/",
+          "source_note": "First-season official key visual.",
+          "category": "Anime",
+          "cover": "assets/covers/thumbnails/mushoku-tensei.jpg"
+        },
+        {
+          "id": "sword-art-online",
+          "title": "Sword Art Online",
+          "url": "https://www.aniplex.co.jp/lineup/swordartonline/",
+          "source": "https://www.aniplex.co.jp/lineup/swordartonline/",
+          "source_note": "Official Aniplex series key visual.",
+          "category": "Anime",
+          "cover": "assets/covers/thumbnails/sword-art-online.jpg"
+        },
+        {
+          "id": "garden-of-sinners",
+          "title": "Kara no Kyoukai",
+          "url": "https://aniplexusa.com/thegardenofsinners/",
+          "source": "https://aniplexusa.com/thegardenofsinners/",
+          "source_note": "Official Aniplex USA promotional visual.",
+          "category": "Anime",
+          "cover": "assets/covers/thumbnails/garden-of-sinners.jpg"
+        },
+        {
+          "id": "your-lie-in-april",
+          "title": "Your Lie in April",
+          "url": "https://www.kimiuso.jp/",
+          "source": "https://a1p.jp/works/kimiuso/",
+          "source_image": "https://a1p.jp/wp/wp-content/uploads/2019/03/kimiuso_l-1.jpg",
+          "source_note": "Official production-studio visual.",
+          "category": "Anime",
+          "cover": "assets/covers/thumbnails/your-lie-in-april.jpg"
+        },
+        {
+          "id": "fate-series",
+          "title": "Fate Series",
+          "url": "https://www.fate-sn.com/ubw/",
+          "source": "https://www.fate-sn.com/ubw/",
+          "source_image": "https://www.fate-sn.com/ubw/img/key.jpg",
+          "source_note": "Fate/stay night [Unlimited Blade Works] key visual represents the series.",
+          "category": "Anime",
+          "cover": "assets/covers/thumbnails/fate-series.jpg"
+        },
+        {
+          "id": "clannad-anime",
+          "title": "Clannad",
+          "url": "https://www.tbs.co.jp/clannad/clannad1/",
+          "source": "https://www.tbs.co.jp/clannad/clannad1/",
+          "source_image": "https://www.tbs.co.jp/clannad/clannad1/images/top-img.jpg",
+          "source_note": "First-season anime promotional visual from TBS; distinct from the visual-novel cover.",
+          "category": "Anime",
+          "cover": "assets/covers/thumbnails/clannad-anime.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Visual Novels",
+      "items": [
+        {
+          "id": "mahoutsukai-no-yoru",
+          "title": "Mahoutsukai no Yoru",
+          "url": "https://store.steampowered.com/app/2052410/",
+          "source": "https://store.steampowered.com/app/2052410/",
+          "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2052410/library_600x900.jpg",
+          "source_note": "Official Steam library cover.",
+          "category": "Visual Novels",
+          "cover": "assets/covers/thumbnails/mahoutsukai-no-yoru.jpg"
+        },
+        {
+          "id": "atri",
+          "title": "ATRI",
+          "url": "https://store.steampowered.com/app/1230140/",
+          "source": "https://store.steampowered.com/app/1230140/",
+          "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1230140/library_600x900.jpg",
+          "source_note": "Official Steam library cover.",
+          "category": "Visual Novels",
+          "cover": "assets/covers/thumbnails/atri.jpg"
+        },
+        {
+          "id": "clannad-vn",
+          "title": "CLANNAD",
+          "url": "https://store.steampowered.com/app/324160/",
+          "source": "https://store.steampowered.com/app/324160/",
+          "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/324160/library_600x900.jpg",
+          "source_note": "Official Steam library cover.",
+          "category": "Visual Novels",
+          "cover": "assets/covers/thumbnails/clannad-vn.jpg"
+        },
+        {
+          "id": "subarashiki-hibi",
+          "title": "Subarashiki Hibi",
+          "url": "https://store.steampowered.com/app/658620/",
+          "source": "https://store.steampowered.com/app/658620/",
+          "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/658620/library_600x900.jpg",
+          "source_note": "Official Steam library cover.",
+          "category": "Visual Novels",
+          "cover": "assets/covers/thumbnails/subarashiki-hibi.jpg"
+        },
+        {
+          "id": "nine-series",
+          "title": "9-nine- Series",
+          "source_note": "Official 9-nine-:Episode 1 library cover represents the series.",
+          "url": "https://store.steampowered.com/app/976390/",
+          "source": "https://store.steampowered.com/app/976390/",
+          "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/976390/library_600x900.jpg",
+          "category": "Visual Novels",
+          "cover": "assets/covers/thumbnails/nine-series.jpg"
+        },
+        {
+          "id": "steins-gate",
+          "title": "Steins;Gate",
+          "url": "https://store.steampowered.com/app/412830/",
+          "source": "https://store.steampowered.com/app/412830/",
+          "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/412830/library_600x900.jpg",
+          "source_note": "Official Steam library cover.",
+          "category": "Visual Novels",
+          "cover": "assets/covers/thumbnails/steins-gate.jpg"
+        },
+        {
+          "id": "sakura-no-uta",
+          "title": "Sakura no Uta",
+          "url": "https://www.makura-soft.com/sakuranouta/",
+          "source": "https://www.keromakura.net/",
+          "source_image": "https://www.keromakura.net/img/products/web_sakuuta.jpg",
+          "source_note": "Original game product image from the developer’s official product catalog.",
+          "category": "Visual Novels",
+          "cover": "assets/covers/thumbnails/sakura-no-uta.jpg"
+        }
+      ]
+    }
+  ]
+}

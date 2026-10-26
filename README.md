@@ -7,18 +7,18 @@
   <p align="right">— Karl Marx, <em>Theses on Feuerbach</em> (1845)</p>
 </blockquote>
 
-<h2 align="center">About Me</h2>
+<h2 align="center">✨ About Me</h2>
 
 <p align="center">
-  <em>I'm <strong>Kronecker</strong>, a <strong>Marxist–Leninist–Maoist</strong> and computer science student.</em>
+  <strong>Ciallo～(∠・ω&lt;)⌒☆ Welcome to My Profile!</strong>
 </p>
 
 <p align="center">
-  <em>I read theory, write code and classical Chinese poetry, and arrange music for piano.</em>
-</p>
-
-<p align="center">
-  <em>I enjoy classical music and the stories and soundtracks of anime and visual novels.</em>
+  🎓 <strong>Undergraduate Student</strong> (2024 – Present)<br>
+  💻 <em>Aspiring Full‑stack &amp; AI Application Engineer</em><br>
+  🎹 Anime &amp; Piano Enthusiast<br>
+  🎶 <strong>Favorite Music Style:</strong> Classical Piano · Japanese Light Music<br>
+  📚 <strong>Philosophy:</strong> Dialectical Materialism · Historical Materialism
 </p>
 
 <p align="center">
