@@ -3,30 +3,30 @@
   "fileName": "profile-custom.svg",
   "backgroundColor": "#ffffff",
   "foregroundColor": "#24292f",
-  "strongColor": "#b9404b",
+  "strongColor": "#5368d6",
   "weakColor": "#6e7781",
-  "radarColor": "#b9404b",
+  "radarColor": "#7c6bd6",
   "growingAnimation": true,
   "contribColors": [
-    "#ebedf0",
-    "#f5d9dc",
-    "#eaa0a9",
-    "#d56a79",
-    "#b9404b"
+    "#eef1f8",
+    "#d5dbf8",
+    "#b2bdf1",
+    "#8e9ae8",
+    "#6574db"
   ],
   "darkMode": {
     "type": "normal",
     "backgroundColor": "#0d1117",
     "foregroundColor": "#c9d1d9",
-    "strongColor": "#f0747a",
+    "strongColor": "#8ea8ff",
     "weakColor": "#8b949e",
-    "radarColor": "#f0747a",
+    "radarColor": "#a78bfa",
     "contribColors": [
       "#161b22",
-      "#54242c",
-      "#80343e",
-      "#b94a56",
-      "#f0747a"
+      "#303450",
+      "#515789",
+      "#7379bd",
+      "#9a9cf6"
     ]
   }
 }

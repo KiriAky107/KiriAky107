@@ -1,28 +1,28 @@
-# 主页图片自动更新
+# Profile image automation
 
-工作流：`.github/workflows/profile-refresh.yml`。
+Workflow: `.github/workflows/profile-refresh.yml`.
 
-## 触发时间
+## Triggers
 
-- 每天北京时间 **06:17**（cron 为 UTC `17 22 * * *`）。GitHub 的定时任务可能排队延迟，不保证准点运行。
-- 可以在 Actions → **Refresh profile visuals** → **Run workflow** 手动运行，选择 `main`。
-- 向 `main` 推送本工作流、3D 配色、图片校验脚本或 `README.md` 的修改时，自动刷新。生成图片自己的提交不匹配这些路径。
+- Daily at **06:17 Asia/Shanghai** (UTC cron: `17 22 * * *`). GitHub may queue or delay scheduled runs; execution at the exact minute is not guaranteed.
+- Manually through Actions → **Refresh profile visuals** → **Run workflow**, selecting `main`.
+- Automatically when changes to the workflow, 3D palette, image validator, or `README.md` are pushed to `main`. Commits that only update generated images do not match these paths.
 
-## 使用的组件
+## Components
 
-| 组件 | 固定版本 | 用途 |
+| Component | Pinned version | Purpose |
 | --- | --- | --- |
-| [GitHub Readme Stats Action](https://github.com/stats-organization/github-readme-stats-action) | v2.1.0；核心 2.2.0 | 公开统计与仓库语言图，各含明暗两版 |
-| [Platane/snk](https://github.com/Platane/snk) | v3.5.0，SVG 入口 | 贡献图贪吃蛇，明暗两版 |
-| [GitHub Profile 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | v0.9.3 | 一张内含明暗配色的 3D 贡献图 |
+| [GitHub Readme Stats Action](https://github.com/stats-organization/github-readme-stats-action) | v2.1.0; core 2.2.0 | Public statistics and repository language cards, each with light and dark variants |
+| [Platane/snk](https://github.com/Platane/snk) | v3.5.0, SVG entry point | Contribution snake animations in light and dark variants |
+| [GitHub Profile 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | v0.9.3 | One 3D contribution SVG containing both light and dark palettes |
 
-全部 Actions 都固定到完整 commit SHA，工作流旁注标明版本。Dependabot 每周一检查 Actions 的更新并创建 PR；配置不包含自动合并。统计核心的 `core_version: 2.2.0` 另行手动维护。
+Every Action is pinned to a full commit SHA, with its version noted in the workflow. Dependabot checks for Action updates every Monday and opens pull requests; automatic merging is not configured. The statistics renderer's `core_version: 2.2.0` is maintained separately.
 
-## 数据与权限
+## Data and permissions
 
-无需新增 secret、PAT 或外部服务账户，使用 GitHub 自动提供的 `GITHUB_TOKEN`。展示公开数据，不启用私有统计或需要额外权限的评论、讨论等扩展统计字段。若账户已选择在 GitHub 公开匿名私有贡献数量，贡献图可能包含这些公开数量，不会读取私有代码。
+No additional secret, personal access token (PAT), or external service account is required. The workflow uses GitHub's automatically provided `GITHUB_TOKEN`. It displays public data and does not enable private statistics or extended review/discussion fields that require additional permissions. If the account publicly displays anonymous private contribution counts, the contribution charts may include those published counts; private code is not read.
 
-生成任务只有 `contents: read`，checkout 不保留 Git 凭据。独立发布任务才获得 `contents: write`；它接收本次运行的图片产物，只提交下面七个文件，并使用正常的 fast-forward push，不强制覆盖分支。
+The generation job has only `contents: read`, and checkout does not persist Git credentials. A separate publishing job receives `contents: write`. It downloads the current run's image artifact, commits only the seven files below, and uses a normal fast-forward push without overwriting branch history.
 
 ```text
 profile/stats-light.svg
@@ -34,16 +34,17 @@ profile/snake-dark.svg
 profile-3d-contrib/profile-custom.svg
 ```
 
-统计卡的 `hide_rank` 已开启。语言图根据公开仓库内容生成，**不代表个人熟练度**；提交、贡献等数字也不是能力评分。
+The statistics cards use `hide_rank`. Language charts reflect public repository contents and **do not measure personal proficiency**. Commit and contribution counts are not skill ratings either.
 
-## 修改外观
+## Appearance
 
-- 统计卡与 Snake 的颜色在工作流里，采用朱红与墨色。
-- 3D 图在 `.github/profile-3d-settings.json` 中配置，结构参考官方 [green-dual.json](https://github.com/yoshi389111/github-profile-3d-contrib/blob/main/sample-settings/green-dual.json)。`fileName` 必须保留为 `profile-custom.svg`。
-- README 引用仓库内的 SVG，不依赖公共统计服务在访问时生成。
+- Statistics cards, contribution snakes, and the 3D chart share a blue/violet palette. Light mode uses blue `#5368d6` and violet `#7c6bd6`; dark mode uses blue `#8ea8ff` and violet `#a78bfa`.
+- Contribution levels progress from `#eef1f8` to `#6574db` in light mode and from `#161b22` to `#9a9cf6` in dark mode. Both contribution visualizations use the same five-level scales.
+- Statistics and snake colors are configured in the workflow. The 3D palette is configured in `.github/profile-3d-settings.json`, following the official [green-dual.json](https://github.com/yoshi389111/github-profile-3d-contrib/blob/main/sample-settings/green-dual.json) structure. Keep `fileName` set to `profile-custom.svg`.
+- The README embeds SVGs stored in this repository, so visiting the profile does not require a public statistics service to render new images.
 
-## 出错时
+## Failure handling
 
-统计 Action 已设置 `fail_on_error: true`。上传前执行 `python3 scripts/check_profile.py --generated`，检查七张图片均存在且不是错误 SVG；下载后再校验一次。任一生成或校验步骤失败，发布任务就不会提交，远端继续展示上次成功的图片。
+The statistics Action sets `fail_on_error: true`. Before uploading, `python3 scripts/check_profile.py --generated` checks that all seven images exist and are not error SVGs. The publishing job validates them again after downloading. If generation or validation fails, no update is committed, and the remote profile keeps its last successful images.
 
-到 Actions 查看失败的步骤后，可重新运行。若发布期间 `main` 又有新提交而出现 push 冲突，重新运行完整工作流即可；工作流不会 force push。修改核心版本、配色或文件名后，也应检查一次实际生成结果。
+Inspect the failed step in Actions and rerun the workflow after resolving the cause. If `main` receives another commit during publishing and the push is rejected, rerun the complete workflow; it never force pushes. After changing the renderer version, palette, or file names, inspect the actual generated images as well.

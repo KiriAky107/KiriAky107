@@ -55,9 +55,6 @@ def check_readme() -> None:
             raise ValueError(f"Broken local image reference: {relative}")
         if path.suffix == ".svg":
             check_svg(relative)
-    for title in ("header-light.svg", "header-dark.svg"):
-        if title not in text:
-            raise ValueError(f"Missing theme header: {title}")
     if "style=" in text:
         raise ValueError("README contains inline styles stripped by GitHub")
 

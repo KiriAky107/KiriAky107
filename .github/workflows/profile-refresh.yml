@@ -57,7 +57,7 @@ jobs:
           fail_on_error: true
           path: profile/stats-light.svg
           options: >-
-            {"username":"${{ github.repository_owner }}","show_icons":true,"hide_rank":true,"include_all_commits":false,"disable_animations":true,"bg_color":"ffffff","title_color":"b9404b","icon_color":"b9404b","text_color":"24292f","border_color":"d0d7de"}
+            {"username":"${{ github.repository_owner }}","show_icons":true,"hide_rank":true,"include_all_commits":false,"disable_animations":true,"bg_color":"ffffff","title_color":"5368d6","icon_color":"7c6bd6","text_color":"24292f","border_color":"d0d7de"}
 
       - name: Generate public statistics for dark mode
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
@@ -68,7 +68,7 @@ jobs:
           fail_on_error: true
           path: profile/stats-dark.svg
           options: >-
-            {"username":"${{ github.repository_owner }}","show_icons":true,"hide_rank":true,"include_all_commits":false,"disable_animations":true,"bg_color":"0d1117","title_color":"f0747a","icon_color":"f0747a","text_color":"c9d1d9","border_color":"30363d"}
+            {"username":"${{ github.repository_owner }}","show_icons":true,"hide_rank":true,"include_all_commits":false,"disable_animations":true,"bg_color":"0d1117","title_color":"8ea8ff","icon_color":"a78bfa","text_color":"c9d1d9","border_color":"30363d"}
 
       - name: Generate public repository languages for light mode
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
@@ -79,7 +79,7 @@ jobs:
           fail_on_error: true
           path: profile/top-langs-light.svg
           options: >-
-            {"username":"${{ github.repository_owner }}","layout":"compact","langs_count":8,"disable_animations":true,"bg_color":"ffffff","title_color":"b9404b","text_color":"24292f","border_color":"d0d7de"}
+            {"username":"${{ github.repository_owner }}","layout":"compact","langs_count":8,"disable_animations":true,"bg_color":"ffffff","title_color":"5368d6","text_color":"24292f","border_color":"d0d7de"}
 
       - name: Generate public repository languages for dark mode
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
@@ -90,7 +90,7 @@ jobs:
           fail_on_error: true
           path: profile/top-langs-dark.svg
           options: >-
-            {"username":"${{ github.repository_owner }}","layout":"compact","langs_count":8,"disable_animations":true,"bg_color":"0d1117","title_color":"f0747a","text_color":"c9d1d9","border_color":"30363d"}
+            {"username":"${{ github.repository_owner }}","layout":"compact","langs_count":8,"disable_animations":true,"bg_color":"0d1117","title_color":"8ea8ff","text_color":"c9d1d9","border_color":"30363d"}
 
       - name: Generate contribution snakes
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
@@ -98,8 +98,8 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ github.token }}
           outputs: |
-            profile/snake-light.svg?color_snake=#b9404b&color_dots=#ebedf0,#f5d9dc,#eaa0a9,#d56a79,#b9404b
-            profile/snake-dark.svg?palette=github-dark&color_snake=#f0747a&color_dots=#161b22,#54242c,#80343e,#b94a56,#f0747a
+            profile/snake-light.svg?color_snake=#7c6bd6&color_dots=#eef1f8,#d5dbf8,#b2bdf1,#8e9ae8,#6574db
+            profile/snake-dark.svg?palette=github-dark&color_snake=#a78bfa&color_dots=#161b22,#303450,#515789,#7379bd,#9a9cf6
 
       - name: Generate contribution city with light and dark palettes
         uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
