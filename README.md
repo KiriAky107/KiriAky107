@@ -70,7 +70,7 @@
 <p><strong>Development</strong><br><sub>Git · Linux · Docker · GitHub Actions</sub></p>
 </td>
 <td width="50%" valign="top">
-<p><a href="./docs/MEDIA.md"><img src="./profile/media.svg" width="100%" alt="Favorite anime and visual novels, what I'm watching and playing, and favorite characters. Open for all titles, names, and official links."></a></p>
+<p><a href="./docs/MEDIA.md"><img src="./profile/media.svg" width="100%" alt="Favorite anime and visual novels, what I'm watching and playing, and favorite characters. Open for titles, artist credits, and artwork sources."></a></p>
 </td>
 </tr>
 </table>

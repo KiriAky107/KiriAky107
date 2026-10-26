@@ -54,7 +54,8 @@ def check_svg(relative: str) -> None:
 
 def check_media(root: ET.Element) -> None:
     catalog = json.loads((ROOT / ".github/profile-media.json").read_text(encoding="utf-8"))
-    expected = [item["title"] for section in catalog["sections"] for item in section["items"]]
+    items = [item for section in catalog["sections"] for item in section["items"]]
+    expected = [item["title"] for item in items]
     ready = [element for element in root.iter() if element.get("id") == "profile-media"]
     if len(ready) != 1 or ready[0].get("data-profile-ready") != "true":
         raise ValueError("Media render did not finish successfully")
@@ -69,11 +70,15 @@ def check_media(root: ET.Element) -> None:
     actual_layouts = [element.get("data-profile-layout") for element in root.iter() if element.get("data-profile-section")]
     if actual_layouts != [section.get("layout", "list") for section in catalog["sections"]]:
         raise ValueError("Media section layouts do not match the catalog")
-    for entry, title in zip(entries, expected):
+    for entry, item in zip(entries, items):
+        title = item["title"]
         labels = [element for element in entry.iter() if element.get("class") == "media-title"]
+        artists = [element for element in entry.iter() if element.get("class") == "media-artist"]
         images = [element for element in entry.iter() if element.tag.rsplit("}", 1)[-1] == "img"]
         if len(labels) != 1 or "".join(labels[0].itertext()) != title or len(images) != 1:
             raise ValueError(f"Missing title or cover: {title}")
+        if item.get("artist") and (len(artists) != 1 or "".join(artists[0].itertext()) != "Art by " + item["artist"]):
+            raise ValueError(f"Missing artist credit: {title}")
         source = images[0].get("src", "")
         if not source.startswith(("data:image/jpeg;base64,", "data:image/png;base64,")):
             raise ValueError(f"Cover is not embedded: {title}")

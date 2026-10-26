@@ -1,6 +1,6 @@
 # Media & Characters
 
-English titles, official links, and image credits for the profile gallery. Titles use English release names where available, or established romanizations.
+English titles, artist credits, and artwork sources for the profile gallery. Titles use English release names where available, or established romanizations.
 
 ## Anime
 
@@ -41,19 +41,19 @@ English titles, official links, and image credits for the profile gallery. Title
 
 ## Favorite Characters
 
-| Name | Image source | Artwork |
-| --- | --- | --- |
-| [Alice Kuonji](https://mahoyo-en.com/character/) | [Source](https://mahoyo-en.com/gallery/) | Official Witch on the Holy Night gallery CG: Alice reading on the green sofa in the Kuonji mansion. |
-| [Nagisa Furukawa](https://www.tbs.co.jp/clannad/04chara/chara02.html) | [Source](https://www.tbs.co.jp/clannad/03story/story14.html) | Official TBS CLANNAD After Story episode 14 preview still: Nagisa smiling in a warmly lit room. |
-| [Asuna Yuuki](https://www.swordart-online.net/aincrad/character/) | [Source](https://www.swordart-online.net/aincrad/story/?id=ep11) | Official Sword Art Online: Aincrad episode 11 still: Asuna smiling outside the forest cabin. |
-| [Sylphiette](https://mushokutensei.jp/character/) | [Source](https://natalie.mu/comic/gallery/news/567869/2287803) | Official Mushoku Tensei II episode 13 preview still, reproduced by Comic Natalie: Sylphiette smiling in a wood-paneled room. |
-| [Shiki Ryougi](https://www.karanokyoukai.com/archive/chapter7.html) | [Source](https://www.karanokyoukai.com/archive/chapter7.html) | Official The Garden of Sinners chapter 7 gallery still: Shiki in a rainy, blue-lit scene. |
-| [Megumi Kato](https://saenai-movie.com/character/megumi_kato/) | [Source](https://saenai-movie.com/story/) | Official Saekano the Movie: Finale story-page still: Megumi in a warm scene filled with petals. |
-| [Sinon (Shino Asada)](https://www.swordart-online.net/phantom/character/) | [Source](https://www.swordart-online.net/phantom/story/?id=ep09) | Official Sword Art Online: Phantom Bullet episode 9 still: Sinon focused in a Gun Gale Online forest. |
-| [Yuuki (Sword Art Online)](https://www.swordart-online.net/mothers/character/) | [Source](https://www.swordart-online.net/mothers/story/?id=ep19) | Official Sword Art Online: Mother's Rosario episode 19 still: Yuuki smiling and making a victory sign. |
+| Character | Artist | Artwork sources | Illustration |
+| --- | --- | --- | --- |
+| [Alice Kuonji](https://mahoyo-en.com/character/) | [Sodeya Itsuki](https://www.pixiv.net/users/51063) | [Original post](https://www.pixiv.net/artworks/27166463) · [Image archive](https://www.zerochan.net/1109773) | A moonlit, teal-toned fan illustration. The original Pixiv reference is preserved in community archives. |
+| [Nagisa Furukawa](https://www.tbs.co.jp/clannad/04chara/chara02.html) | [Nardack](https://x.com/Nardack) | [Original post](https://www.pixiv.net/artworks/17877766) · [Image archive](https://www.zerochan.net/505745) | A soft portrait with falling petals. The original Pixiv reference is preserved in historical community records; an image archive is linked below. |
+| [Asuna](https://www.swordart-online.net/aincrad/character/) | [Sarasara Shoyu](https://x.com/shoyu_Sara) | [Original post](https://www.pixiv.net/artworks/84698456) · [Community record](https://safebooru.org/index.php?page=post&s=view&id=3243276) | A warm, petal-filled portrait from a 2020 fan illustration. |
+| [Sylphiette](https://mushokutensei.jp/character/) | [MIAOPULU](https://www.pixiv.net/users/15317640) | [Original post](https://www.pixiv.net/artworks/100509467) · [pixivision feature](https://www.pixivision.net/en/a/9122) | WHITE, a softly lit portrait featured in pixivision’s Sylphiette fan-art collection. |
+| [Shiki Ryougi](https://www.karanokyoukai.com/archive/chapter7.html) | [ROVA _DD](https://rova_dd.artstation.com/) | [Original post](https://rova_dd.artstation.com/projects/nrE9E) · [Community record](https://www.zerochan.net/2387718) | A moonlit cherry-blossom illustration, with the artist’s original signature retained. |
+| [Megumi Kato](https://saenai-movie.com/character/megumi_kato/) | [atychi](https://www.pixiv.net/users/26345139) | [Original post](https://www.pixiv.net/artworks/102827434) · [Community record](https://www.zerochan.net/3814826) | A softly lit portrait with Megumi’s white beret and red cardigan. |
+| [Sinon](https://www.swordart-online.net/phantom/character/) | [Yaato](https://x.com/yamato99725444) | [Original post](https://www.pixiv.net/artworks/92159582) · [Community record](https://safebooru.org/index.php?page=post&s=view&id=3623313) | A blue floral portrait, from the second image of the original 2021 post. |
+| [Yuuki (SAO)](https://www.swordart-online.net/mothers/character/) | [Nemu](https://x.com/46_2367teimei) | [Original post](https://www.pixiv.net/artworks/81774482) · [Community record](https://safebooru.org/index.php?page=post&s=view&id=6778453) | A 2020 birthday illustration, from the second image of the original post. Original lettering retained. |
 
 ## Image credits
 
-Cover thumbnails preserve their original proportions. Character cards use animation stills or visual-novel CG, shown as wide images with English names below. All images are embedded into the generated gallery.
+Cover thumbnails and fan illustrations preserve their original proportions. The character gallery shows each artist’s name below the image; full compositions, signatures, and original lettering are retained. Some older original posts may no longer be accessible, so their historical references and community image archives are included.
 
-Artwork belongs to the respective rights holders. The credited images are not covered by this repository’s code license. Source URLs, name references, and local asset paths are recorded in `.github/profile-media.json`.
+Artwork belongs to the respective artists and rights holders. The credited images are not covered by this repository’s code license. Original-post references, artist profiles, image sources, and provenance notes are recorded in `.github/profile-media.json`.

@@ -20,6 +20,7 @@ CSS = """.items-wrapper { margin: 0; padding: 0; }
   --media-accent: #5368d6;
   --media-border: #d0d7de;
   --media-surface: #f6f8fc;
+  --media-muted: #57606a;
   color: var(--media-text);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'Noto Sans CJK SC', 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif;
   box-sizing: border-box;
@@ -84,9 +85,9 @@ CSS = """.items-wrapper { margin: 0; padding: 0; }
 }
 #profile-media .characters .media-cover {
   width: 100%;
-  height: 123px;
-  flex-basis: 123px;
-  object-fit: cover;
+  height: 219px;
+  flex-basis: 219px;
+  object-fit: contain;
   border-radius: 8px;
 }
 #profile-media .characters .media-title {
@@ -95,12 +96,22 @@ CSS = """.items-wrapper { margin: 0; padding: 0; }
   text-align: left;
   padding: 0 2px;
 }
+#profile-media .media-artist {
+  display: block;
+  margin-top: -4px;
+  padding: 0 2px;
+  color: var(--media-muted);
+  font-size: 12px;
+  line-height: 18px;
+  overflow-wrap: anywhere;
+}
 @media (prefers-color-scheme: dark) {
   #profile-media {
     --media-text: #c9d1d9;
     --media-accent: #8ea8ff;
     --media-border: #30363d;
     --media-surface: #161b22;
+    --media-muted: #8b949e;
   }
 }
 """.strip()
@@ -132,12 +143,17 @@ for (const group of catalog.sections) {
     entry.setAttribute('data-profile-title', item.title);
     const cover = element('img', 'media-cover');
     cover.setAttribute('src', item.image);
-    cover.setAttribute('alt', item.title + (group.layout === 'characters' ? ' scene' : ' cover'));
+    cover.setAttribute('alt', item.title + (group.layout === 'characters' ? ' fan art by ' + item.artist : ' cover'));
     cover.setAttribute('width', group.layout === 'characters' ? '219' : group.layout === 'compact' ? '42' : '50');
-    cover.setAttribute('height', group.layout === 'characters' ? '123' : group.layout === 'compact' ? '60' : '70');
+    cover.setAttribute('height', group.layout === 'characters' ? '219' : group.layout === 'compact' ? '60' : '70');
     const title = element('span', 'media-title');
     title.textContent = item.title;
     entry.append(cover, title);
+    if (item.artist) {
+      const artist = element('span', 'media-artist');
+      artist.textContent = 'Art by ' + item.artist;
+      entry.append(artist);
+    }
     list.append(entry);
     images.push(cover);
   }
@@ -172,6 +188,9 @@ def load_catalog() -> dict:
         for item in section["items"]:
             if urlparse(item["url"]).scheme != "https":
                 raise ValueError(f"Expected an HTTPS title link: {item['title']}")
+            if section.get("layout") == "characters":
+                if not item.get("artist") or urlparse(item.get("source", "")).scheme != "https":
+                    raise ValueError(f"Missing artist or artwork source: {item['title']}")
             path = (ROOT / item["cover"]).resolve()
             if not path.is_relative_to(ROOT / "assets/covers") or not path.is_file():
                 raise ValueError(f"Missing local cover: {item['cover']}")
@@ -188,7 +207,10 @@ def build_preset(catalog: dict) -> dict:
             if mime is None:
                 raise ValueError(f"Unsupported cover format: {path.name}")
             encoded = base64.b64encode(path.read_bytes()).decode("ascii")
-            group["items"].append({"title": item["title"], "image": f"data:{mime};base64,{encoded}"})
+            embedded_item = {"title": item["title"], "image": f"data:{mime};base64,{encoded}"}
+            if item.get("artist"):
+                embedded_item["artist"] = item["artist"]
+            group["items"].append(embedded_item)
         embedded["sections"].append(group)
     payload = json.dumps(embedded, ensure_ascii=True, separators=(",", ":"))
     return {"schema": "v1", "with": {"extras_css": CSS, "extras_js": SCRIPT.replace("__CATALOG__", payload)}}
