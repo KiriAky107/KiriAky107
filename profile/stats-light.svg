@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kronecker&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 5, Total Commits  (last year) : 1638, Total PRs: 3, Total Issues: 1, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars Earned: 5, Total Commits  (last year) : 1639, Total PRs: 3, Total Issues: 1, Contributed to (last year): 3</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #b9404b;
+            fill: #5368d6;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #b9404b;
+      fill: #7c6bd6;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #b9404b;
+      stroke: #5368d6;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #b9404b;
+      stroke: #5368d6;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 188.6657445604324;
+        stroke-dashoffset: 188.66450854580836;
       }
     }
   
