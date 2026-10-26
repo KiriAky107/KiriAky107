@@ -1,27 +1,59 @@
-# Media sources
+# Media & Characters
 
-The original anime banner remains unchanged at `images/无职转生.png`.
+Favorite works, current watching and playing, and favorite characters, with the names and order used on the profile.
 
-The gallery retains the author's original work names and order: six anime entries and seven visual novels. It does not imply ratings, watch status, or completion dates. The title and source data are maintained in `.github/profile-media.json`.
+## Anime
 
-Gallery thumbnails in `assets/covers/thumbnails/` are reduced copies of official promotional images, up to 140 × 210 pixels, with their original proportions preserved. They are embedded into the generated Metrics SVG so profile visits do not depend on the source image servers. Original assets already present in `assets/covers/` are retained.
+| Name | Image source | Artwork |
+| --- | --- | --- |
+| [Mushoku Tensei](https://mushokutensei.jp/) | [Source](https://mushokutensei.jp/news/1206-03/) | First-season official key visual. |
+| [Sword Art Online](https://www.aniplex.co.jp/lineup/swordartonline/) | [Source](https://www.aniplex.co.jp/lineup/swordartonline/) | Official Aniplex series key visual. |
+| [Kara no Kyoukai](https://aniplexusa.com/thegardenofsinners/) | [Source](https://aniplexusa.com/thegardenofsinners/) | Official Aniplex USA promotional visual. |
+| [Your Lie in April](https://www.kimiuso.jp/) | [Source](https://a1p.jp/works/kimiuso/) | Official production-studio visual. |
+| [Fate Series](https://www.fate-sn.com/ubw/) | [Source](https://www.fate-sn.com/ubw/) | Fate/stay night [Unlimited Blade Works] key visual represents the series. |
+| [Clannad](https://www.tbs.co.jp/clannad/clannad1/) | [Source](https://www.tbs.co.jp/clannad/clannad1/) | First-season anime promotional visual from TBS; distinct from the visual-novel cover. |
+| [青春猪头少年不会梦到兔女郎学姐系列](https://ao-buta.com/) | [Source](https://www.aniplex.co.jp/lineup/ao-buta/) | Official Aniplex key visual for the first TV anime represents the series. |
+| [Angel Beats](https://www.angelbeats.jp/) | [Source](https://www.aniplex.co.jp/lineup/angelbeats/) | Official Aniplex TV anime key visual. |
+| [路人女主系列](https://www.saenai.tv/) | [Source](https://www.saenai.tv/) | Official Saekano Flat (second TV season) key visual represents the series. |
 
-| Category | Display title | Thumbnail | Source | Artwork notes |
-| --- | --- | --- | --- | --- |
-| Anime | Mushoku Tensei | `assets/covers/thumbnails/mushoku-tensei.jpg` | [Official source](https://mushokutensei.jp/news/1206-03/) | First-season official key visual. |
-| Anime | Sword Art Online | `assets/covers/thumbnails/sword-art-online.jpg` | [Official source](https://www.aniplex.co.jp/lineup/swordartonline/) | Official Aniplex series key visual. |
-| Anime | Kara no Kyoukai | `assets/covers/thumbnails/garden-of-sinners.jpg` | [Official source](https://aniplexusa.com/thegardenofsinners/) | Official Aniplex USA promotional visual. |
-| Anime | Your Lie in April | `assets/covers/thumbnails/your-lie-in-april.jpg` | [Official source](https://a1p.jp/works/kimiuso/) | Official production-studio visual. |
-| Anime | Fate Series | `assets/covers/thumbnails/fate-series.jpg` | [Official source](https://www.fate-sn.com/ubw/) | Fate/stay night [Unlimited Blade Works] key visual represents the series. |
-| Anime | Clannad | `assets/covers/thumbnails/clannad-anime.jpg` | [Official source](https://www.tbs.co.jp/clannad/clannad1/) | First-season anime promotional visual from TBS; distinct from the visual-novel cover. |
-| Visual Novels | Mahoutsukai no Yoru | `assets/covers/thumbnails/mahoutsukai-no-yoru.jpg` | [Official source](https://store.steampowered.com/app/2052410/) | Official Steam library cover. |
-| Visual Novels | ATRI | `assets/covers/thumbnails/atri.jpg` | [Official source](https://store.steampowered.com/app/1230140/) | Official Steam library cover. |
-| Visual Novels | CLANNAD | `assets/covers/thumbnails/clannad-vn.jpg` | [Official source](https://store.steampowered.com/app/324160/) | Official Steam library cover. |
-| Visual Novels | Subarashiki Hibi | `assets/covers/thumbnails/subarashiki-hibi.jpg` | [Official source](https://store.steampowered.com/app/658620/) | Official Steam library cover. |
-| Visual Novels | 9-nine- Series | `assets/covers/thumbnails/nine-series.jpg` | [Official source](https://store.steampowered.com/app/976390/) | Official 9-nine-:Episode 1 library cover represents the series. |
-| Visual Novels | Steins;Gate | `assets/covers/thumbnails/steins-gate.jpg` | [Official source](https://store.steampowered.com/app/412830/) | Official Steam library cover. |
-| Visual Novels | Sakura no Uta | `assets/covers/thumbnails/sakura-no-uta.jpg` | [Official source](https://www.keromakura.net/) | Original game product image from the developer’s official product catalog. |
+## Visual Novels
 
-The anime **Clannad** entry uses the first-season TBS visual. The visual-novel **CLANNAD** entry uses the game's Steam library cover. **Fate Series** and **9-nine- Series** use representative installment artwork as identified above.
+| Name | Image source | Artwork |
+| --- | --- | --- |
+| [Mahoutsukai no Yoru](https://store.steampowered.com/app/2052410/) | [Source](https://store.steampowered.com/app/2052410/) | Official Steam library cover. |
+| [ATRI](https://store.steampowered.com/app/1230140/) | [Source](https://store.steampowered.com/app/1230140/) | Official Steam library cover. |
+| [CLANNAD](https://store.steampowered.com/app/324160/) | [Source](https://store.steampowered.com/app/324160/) | Official Steam library cover. |
+| [Subarashiki Hibi](https://store.steampowered.com/app/658620/) | [Source](https://store.steampowered.com/app/658620/) | Official Steam library cover. |
+| [9-nine- Series](https://store.steampowered.com/app/976390/) | [Source](https://store.steampowered.com/app/976390/) | Official 9-nine-:Episode 1 library cover represents the series. |
+| [Steins;Gate](https://store.steampowered.com/app/412830/) | [Source](https://store.steampowered.com/app/412830/) | Official Steam library cover. |
+| [Sakura no Uta](https://www.makura-soft.com/sakuranouta/) | [Source](https://www.keromakura.net/) | Original game product image from the developer’s official product catalog. |
 
-Artwork belongs to the respective rights holders; the source links are attribution, not a claim that the images are covered by this repository's code license. Direct image source URLs, where available, are recorded as `source_image` in the JSON.
+## Watching & Playing
+
+| Name | Image source | Artwork |
+| --- | --- | --- |
+| [败犬女主真是太多了](https://makeine-anime.com/) | [Source](https://makeine-anime.com/) | Official TV anime key visual. |
+| [义妹生活](https://gimaiseikatsu-anime.com/) | [Source](https://gimaiseikatsu-anime.com/) | Official TV anime key visual. |
+| [月姬R](https://typemoon.com/products/tsukihime/) | [Source](https://typemoon.com/products/tsukihime/) | Official TYPE-MOON key visual for Tsukihime -A piece of blue glass moon- (remake); original landscape aspect ratio preserved. |
+| [樱之刻](https://www.makura-soft.com/sakuranotoki/) | [Source](https://www.keromakura.net/) | Sakura no Toki product image from the developer’s official catalog, distinct from Sakura no Uta; original landscape aspect ratio preserved. |
+| [月影魅像](https://store.steampowered.com/app/1069230/) | [Source](https://store.steampowered.com/app/1069230/) | Official Steam library cover for Tsukikage no Simulacre (月影のシミュラクル -解放の羽- / 月影魅像-解放之羽-). |
+| [苍之彼方的四重奏](https://store.steampowered.com/app/1044620/) | [Source](https://store.steampowered.com/app/1044620/) | Official Steam library cover for Aokana - Four Rhythms Across the Blue. |
+
+## Favorite Characters
+
+| Name | Image source | Artwork |
+| --- | --- | --- |
+| [久远寺有珠](https://typemoon.com/products/mahoyo/character/) | [Source](https://typemoon.com/products/mahoyo/character/) | TYPE-MOON official Mahoutsukai no Yoru character artwork for Alice Kuonji; head-and-shoulders crop of the individual transparent illustration, composited on a light background. |
+| [古河渚](https://www.tbs.co.jp/clannad/04chara/chara02.html) | [Source](https://www.tbs.co.jp/clannad/04chara/chara02.html) | TBS official CLANNAD character artwork for Nagisa Furukawa; head-and-shoulders crop of the individual character illustration. |
+| [亚斯娜](https://www.swordart-online.net/aincrad/character/) | [Source](https://www.swordart-online.net/aincrad/character/) | Asuna in her Aincrad outfit; head-and-shoulders crop from the official anime character model sheet. |
+| [希露菲](https://mushokutensei.jp/character/) | [Official character design (Comic Natalie)](https://natalie.mu/comic/gallery/news/567869/2253527) | Official Mushoku Tensei II second-cour Sylphiette character-design artwork reproduced by Comic Natalie; cropped to the front-facing portrait. |
+| [两仪式](https://www.asahi.co.jp/smp/anime/karano/chara.html) | [Source](https://www.asahi.co.jp/smp/anime/karano/chara.html) | ABC/Asahi official Kara no Kyoukai character artwork for Shiki Ryougi; head-and-shoulders crop preserving the original dark backdrop. |
+| [加藤惠](https://saenai-movie.com/character/megumi_kato/) | [Source](https://saenai-movie.com/character/megumi_kato/) | Megumi Kato; portrait crop from the official Saekano the Movie: Finale character illustration. |
+| [诗乃](https://www.swordart-online.net/phantom/character/) | [Source](https://www.swordart-online.net/phantom/character/) | Sinon (Shino Asada) in her Gun Gale Online avatar; portrait crop from the official Phantom Bullet character model sheet. |
+| [优纪（SAO）](https://www.swordart-online.net/mothers/character/) | [Source](https://www.swordart-online.net/mothers/character/) | Yuuki Konno, the Mother's Rosario character; portrait crop from the official anime model sheet, distinct from Asuna. |
+
+## Image credits
+
+The original banner remains unchanged at `images/无职转生.png`. Cover thumbnails preserve their original proportions; character portraits are head-and-shoulder crops of the credited character art. All images are embedded into the generated gallery.
+
+Artwork belongs to the respective rights holders. The credited images are not covered by this repository’s code license. Source URLs and local asset paths are recorded in `.github/profile-media.json`.

@@ -62,8 +62,13 @@ def check_media(root: ET.Element) -> None:
     if sections != [section["title"] for section in catalog["sections"]]:
         raise ValueError("Media section headings are missing or out of order")
     entries = [element for element in root.iter() if element.get("data-profile-title")]
-    if len(entries) != 13 or [entry.get("data-profile-title") for entry in entries] != expected:
+    if len(entries) != len(expected) or [entry.get("data-profile-title") for entry in entries] != expected:
         raise ValueError("Media render is missing or changing curated titles")
+    if ready[0].get("data-profile-count") != str(len(expected)):
+        raise ValueError("Media render count does not match the catalog")
+    actual_layouts = [element.get("data-profile-layout") for element in root.iter() if element.get("data-profile-section")]
+    if actual_layouts != [section.get("layout", "list") for section in catalog["sections"]]:
+        raise ValueError("Media section layouts do not match the catalog")
     for entry, title in zip(entries, expected):
         labels = [element for element in entry.iter() if element.get("class") == "media-title"]
         images = [element for element in entry.iter() if element.tag.rsplit("}", 1)[-1] == "img"]
@@ -79,8 +84,9 @@ def check_media(root: ET.Element) -> None:
         height = float(root.get("viewBox").split()[-1])
     else:
         height = float(root.get("height", "0").removesuffix("px"))
-    if not 1000 <= height <= 1600:
-        raise ValueError(f"Unexpected media card height: {height}")
+    content_height = float(ready[0].get("data-profile-height", "0"))
+    if content_height < 100 or not content_height <= height <= content_height + 40:
+        raise ValueError(f"Media card height {height} does not fit rendered content {content_height}")
 
 
 def check_readme() -> None:

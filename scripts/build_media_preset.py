@@ -21,7 +21,7 @@ CSS = """.items-wrapper { margin: 0; padding: 0; }
   --media-border: #d0d7de;
   --media-surface: #f6f8fc;
   color: var(--media-text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'Noto Sans CJK SC', 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif;
   box-sizing: border-box;
   padding: 12px 14px 8px;
   width: 480px;
@@ -62,6 +62,27 @@ CSS = """.items-wrapper { margin: 0; padding: 0; }
   white-space: normal;
   overflow-wrap: anywhere;
 }
+#profile-media .media-list.compact {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 14px;
+}
+#profile-media .compact .media-entry { min-height: 60px; gap: 10px; }
+#profile-media .compact .media-cover { width: 42px; height: 60px; flex-basis: 42px; }
+#profile-media .compact .media-title { font-size: 16px; line-height: 23px; }
+#profile-media .media-list.characters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px 10px;
+}
+#profile-media .characters .media-entry { flex-direction: column; gap: 8px; }
+#profile-media .characters .media-cover {
+  width: 78px;
+  height: 78px;
+  flex-basis: 78px;
+  border-radius: 12px;
+}
+#profile-media .characters .media-title { font-size: 16px; line-height: 23px; text-align: center; }
 @media (prefers-color-scheme: dark) {
   #profile-media {
     --media-text: #c9d1d9;
@@ -88,18 +109,20 @@ const images = [];
 for (const group of catalog.sections) {
   const section = element('section', 'media-section');
   section.setAttribute('data-profile-section', group.title);
+  section.setAttribute('data-profile-layout', group.layout);
   const heading = element('h2', 'media-heading');
   heading.textContent = group.title;
   section.append(heading);
   const list = element('div', 'media-list');
+  list.classList.add(group.layout);
   for (const item of group.items) {
     const entry = element('div', 'media-entry');
     entry.setAttribute('data-profile-title', item.title);
     const cover = element('img', 'media-cover');
     cover.setAttribute('src', item.image);
-    cover.setAttribute('alt', item.title + ' cover');
-    cover.setAttribute('width', '50');
-    cover.setAttribute('height', '70');
+    cover.setAttribute('alt', item.title + (group.layout === 'characters' ? ' portrait' : ' cover'));
+    cover.setAttribute('width', group.layout === 'characters' ? '78' : group.layout === 'compact' ? '42' : '50');
+    cover.setAttribute('height', group.layout === 'characters' ? '78' : group.layout === 'compact' ? '60' : '70');
     const title = element('span', 'media-title');
     title.textContent = item.title;
     entry.append(cover, title);
@@ -114,22 +137,25 @@ await Promise.all(images.map(image => image.decode()));
 if (images.some(image => !image.complete || image.naturalWidth === 0)) {
   throw new Error('A media cover did not decode');
 }
+if (document.fonts) await document.fonts.ready;
 // Metrics catches extras_js exceptions, so validation requires this final marker.
 gallery.setAttribute('data-profile-ready', 'true');
 gallery.setAttribute('data-profile-count', String(images.length));
+gallery.setAttribute('data-profile-height', String(Math.ceil(gallery.getBoundingClientRect().height)));
 """.strip()
 
 
 def load_catalog() -> dict:
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     sections = catalog.get("sections", [])
-    if [section.get("title") for section in sections] != ["Anime", "Visual Novels"]:
-        raise ValueError("Expected Anime and Visual Novels sections in that order")
-    if [len(section.get("items", [])) for section in sections] != [6, 7]:
-        raise ValueError("Expected six anime and seven visual novels")
+    section_titles = [section.get("title") for section in sections]
+    if not sections or not all(section_titles) or len(set(section_titles)) != len(sections):
+        raise ValueError("Expected nonempty sections with distinct titles")
     for section in sections:
+        if section.get("layout", "list") not in {"list", "compact", "characters"}:
+            raise ValueError(f"Unknown layout for {section['title']}")
         titles = [item.get("title") for item in section["items"]]
-        if len(set(titles)) != len(titles) or not all(titles):
+        if not titles or len(set(titles)) != len(titles) or not all(titles):
             raise ValueError(f"Missing or duplicate title in {section['title']}")
         for item in section["items"]:
             if urlparse(item["url"]).scheme != "https":
@@ -143,7 +169,7 @@ def load_catalog() -> dict:
 def build_preset(catalog: dict) -> dict:
     embedded = {"sections": []}
     for section in catalog["sections"]:
-        group = {"title": section["title"], "items": []}
+        group = {"title": section["title"], "layout": section.get("layout", "list"), "items": []}
         for item in section["items"]:
             path = ROOT / item["cover"]
             mime = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png"}.get(path.suffix.lower())
@@ -160,10 +186,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", required=True, type=Path, help="JSON preset for Metrics' local /renders mount")
     args = parser.parse_args()
-    preset = build_preset(load_catalog())
+    catalog = load_catalog()
+    preset = build_preset(catalog)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(preset, ensure_ascii=False), encoding="utf-8")
-    print(f"Prepared 13 embedded covers in {args.output.name} ({args.output.stat().st_size:,} bytes).")
+    count = sum(len(section["items"]) for section in catalog["sections"])
+    print(f"Prepared {count} embedded images in {args.output.name} ({args.output.stat().st_size:,} bytes).")
 
 
 if __name__ == "__main__":
