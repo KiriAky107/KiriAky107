@@ -143,7 +143,7 @@ for (const group of catalog.sections) {
     entry.setAttribute('data-profile-title', item.title);
     const cover = element('img', 'media-cover');
     cover.setAttribute('src', item.image);
-    cover.setAttribute('alt', item.title + (group.layout === 'characters' ? ' fan art by ' + item.artist : ' cover'));
+    cover.setAttribute('alt', item.title + (group.layout === 'characters' ? ' art by ' + item.artist : ' cover'));
     cover.setAttribute('width', group.layout === 'characters' ? '219' : group.layout === 'compact' ? '42' : '50');
     cover.setAttribute('height', group.layout === 'characters' ? '219' : group.layout === 'compact' ? '60' : '70');
     const title = element('span', 'media-title');
