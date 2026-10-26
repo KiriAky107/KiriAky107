@@ -49,25 +49,25 @@
       <a href="https://www.aniplex.co.jp/lineup/swordartonline/">Sword Art Online</a>
     </td>
     <td align="center" width="33%">
-      <a href="https://aniplexusa.com/thegardenofsinners/"><img src="./assets/covers/garden-of-sinners.jpg" width="100" alt="The Garden of Sinners official key visual"></a><br>
-      <a href="https://aniplexusa.com/thegardenofsinners/">The Garden of Sinners</a>
+      <a href="https://aniplexusa.com/thegardenofsinners/"><img src="./assets/covers/garden-of-sinners.jpg" width="100" alt="Kara no Kyoukai official key visual"></a><br>
+      <a href="https://aniplexusa.com/thegardenofsinners/">Kara no Kyoukai</a>
     </td>
   </tr>
 </table>
 
-<p align="center"><sub>Also: Your Lie in April · Fate series · CLANNAD</sub></p>
+<p align="center"><sub>Also: Your Lie in April · Fate Series · Clannad</sub></p>
 
 <h3 align="center">Visual Novels</h3>
 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="33%">
-      <a href="https://store.steampowered.com/app/2052410/WITCH_ON_THE_HOLY_NIGHT/"><img src="./assets/covers/witch-on-the-holy-night.jpg" width="100" alt="Witch on the Holy Night official cover"></a><br>
-      <a href="https://store.steampowered.com/app/2052410/WITCH_ON_THE_HOLY_NIGHT/">Witch on the Holy Night</a>
+      <a href="https://store.steampowered.com/app/2052410/WITCH_ON_THE_HOLY_NIGHT/"><img src="./assets/covers/witch-on-the-holy-night.jpg" width="100" alt="Mahoutsukai no Yoru official cover"></a><br>
+      <a href="https://store.steampowered.com/app/2052410/WITCH_ON_THE_HOLY_NIGHT/">Mahoutsukai no Yoru</a>
     </td>
     <td align="center" width="33%">
-      <a href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/"><img src="./assets/covers/atri.jpg" width="100" alt="ATRI -My Dear Moments- official cover"></a><br>
-      <a href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/">ATRI -My Dear Moments-</a>
+      <a href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/"><img src="./assets/covers/atri.jpg" width="100" alt="ATRI official cover"></a><br>
+      <a href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/">ATRI</a>
     </td>
     <td align="center" width="33%">
       <a href="https://store.steampowered.com/app/324160/CLANNAD/"><img src="./assets/covers/clannad.jpg" width="100" alt="CLANNAD official cover"></a><br>
@@ -76,7 +76,7 @@
   </tr>
 </table>
 
-<p align="center"><sub>Also: Wonderful Everyday · 9-nine- series · STEINS;GATE · Sakura no Uta</sub></p>
+<p align="center"><sub>Also: Subarashiki Hibi · 9-nine- Series · Steins;Gate · Sakura no Uta</sub></p>
 
 ---
 
