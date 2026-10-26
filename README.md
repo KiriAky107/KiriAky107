@@ -70,38 +70,7 @@
 <p><strong>Development</strong><br><sub>Git · Linux · Docker · GitHub Actions</sub></p>
 </td>
 <td width="50%" valign="top">
-<h3>Anime</h3>
-<table width="100%">
-<tr>
-<td width="100" valign="middle"><a href="https://mushokutensei.jp/news/1206-03/"><img src="./assets/covers/mushoku-tensei.png" width="90" alt="Mushoku Tensei official key visual"></a></td>
-<td valign="middle"><strong><a href="https://mushokutensei.jp/">Mushoku Tensei</a></strong></td>
-</tr>
-<tr>
-<td width="100" valign="middle"><a href="https://www.aniplex.co.jp/lineup/swordartonline/"><img src="./assets/covers/sword-art-online.jpg" width="90" alt="Sword Art Online official key visual"></a></td>
-<td valign="middle"><strong><a href="https://www.aniplex.co.jp/lineup/swordartonline/">Sword Art Online</a></strong></td>
-</tr>
-<tr>
-<td width="100" valign="middle"><a href="https://aniplexusa.com/thegardenofsinners/"><img src="./assets/covers/garden-of-sinners.jpg" width="90" alt="Kara no Kyoukai official key visual"></a></td>
-<td valign="middle"><strong><a href="https://aniplexusa.com/thegardenofsinners/">Kara no Kyoukai</a></strong></td>
-</tr>
-</table>
-<p><sub>Also: Your Lie in April · Fate Series · Clannad</sub></p>
-<h3>Visual Novels</h3>
-<table width="100%">
-<tr>
-<td width="100" valign="middle"><a href="https://store.steampowered.com/app/2052410/WITCH_ON_THE_HOLY_NIGHT/"><img src="./assets/covers/witch-on-the-holy-night.jpg" width="90" alt="Mahoutsukai no Yoru official cover"></a></td>
-<td valign="middle"><strong><a href="https://store.steampowered.com/app/2052410/WITCH_ON_THE_HOLY_NIGHT/">Mahoutsukai no Yoru</a></strong></td>
-</tr>
-<tr>
-<td width="100" valign="middle"><a href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/"><img src="./assets/covers/atri.jpg" width="90" alt="ATRI official cover"></a></td>
-<td valign="middle"><strong><a href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/">ATRI</a></strong></td>
-</tr>
-<tr>
-<td width="100" valign="middle"><a href="https://store.steampowered.com/app/324160/CLANNAD/"><img src="./assets/covers/clannad.jpg" width="90" alt="CLANNAD official cover"></a></td>
-<td valign="middle"><strong><a href="https://store.steampowered.com/app/324160/CLANNAD/">CLANNAD</a></strong></td>
-</tr>
-</table>
-<p><sub>Also: Subarashiki Hibi · 9-nine- Series · Steins;Gate · Sakura no Uta</sub></p>
+<p><a href="./docs/MEDIA.md"><img src="./profile/media.svg" width="100%" alt="Favorite anime and visual novels: 13 works with cover art. Open for titles and official links."></a></p>
 </td>
 </tr>
 </table>
