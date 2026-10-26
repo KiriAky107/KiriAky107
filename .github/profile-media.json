@@ -5,12 +5,14 @@
       "items": [
         {
           "id": "mushoku-tensei",
-          "title": "Mushoku Tensei",
+          "title": "Mushoku Tensei: Jobless Reincarnation",
           "url": "https://mushokutensei.jp/",
           "source": "https://mushokutensei.jp/news/1206-03/",
           "source_note": "First-season official key visual.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/mushoku-tensei.jpg"
+          "cover": "assets/covers/thumbnails/mushoku-tensei.jpg",
+          "full_title": "Mushoku Tensei: Jobless Reincarnation",
+          "name_source": "https://www.crunchyroll.com/series/G24H1N3MP"
         },
         {
           "id": "sword-art-online",
@@ -19,16 +21,20 @@
           "source": "https://www.aniplex.co.jp/lineup/swordartonline/",
           "source_note": "Official Aniplex series key visual.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/sword-art-online.jpg"
+          "cover": "assets/covers/thumbnails/sword-art-online.jpg",
+          "full_title": "Sword Art Online",
+          "name_source": "https://www.swordart-onlineusa.com/chronology/"
         },
         {
           "id": "garden-of-sinners",
-          "title": "Kara no Kyoukai",
+          "title": "The Garden of Sinners",
           "url": "https://aniplexusa.com/thegardenofsinners/",
           "source": "https://aniplexusa.com/thegardenofsinners/",
           "source_note": "Official Aniplex USA promotional visual.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/garden-of-sinners.jpg"
+          "cover": "assets/covers/thumbnails/garden-of-sinners.jpg",
+          "full_title": "The Garden of Sinners",
+          "name_source": "https://aniplexusa.com/thegardenofsinners/"
         },
         {
           "id": "your-lie-in-april",
@@ -38,7 +44,9 @@
           "source_image": "https://a1p.jp/wp/wp-content/uploads/2019/03/kimiuso_l-1.jpg",
           "source_note": "Official production-studio visual.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/your-lie-in-april.jpg"
+          "cover": "assets/covers/thumbnails/your-lie-in-april.jpg",
+          "full_title": "Your Lie in April",
+          "name_source": "https://www.yourlieinapril.com/"
         },
         {
           "id": "fate-series",
@@ -48,47 +56,57 @@
           "source_image": "https://www.fate-sn.com/ubw/img/key.jpg",
           "source_note": "Fate/stay night [Unlimited Blade Works] key visual represents the series.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/fate-series.jpg"
+          "cover": "assets/covers/thumbnails/fate-series.jpg",
+          "full_title": "Fate series",
+          "name_source": "https://aniplexusa.com/fate20thshowcase/"
         },
         {
           "id": "clannad-anime",
-          "title": "Clannad",
+          "title": "CLANNAD",
           "url": "https://www.tbs.co.jp/clannad/clannad1/",
           "source": "https://www.tbs.co.jp/clannad/clannad1/",
           "source_image": "https://www.tbs.co.jp/clannad/clannad1/images/top-img.jpg",
           "source_note": "First-season anime promotional visual from TBS; distinct from the visual-novel cover.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/clannad-anime.jpg"
+          "cover": "assets/covers/thumbnails/clannad-anime.jpg",
+          "full_title": "CLANNAD",
+          "name_source": "https://www.tbs.co.jp/clannad/clannad1/"
         },
         {
           "id": "aobuta-series",
-          "title": "青春猪头少年不会梦到兔女郎学姐系列",
+          "title": "Rascal Does Not Dream Series",
           "url": "https://ao-buta.com/",
           "source": "https://www.aniplex.co.jp/lineup/ao-buta/",
           "source_image": "https://www.aniplex.co.jp/SYS/CONTENTS/keyvisual_ao-buta/w700",
           "source_note": "Official Aniplex key visual for the first TV anime represents the series.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/aobuta-series.jpg"
+          "cover": "assets/covers/thumbnails/aobuta-series.jpg",
+          "full_title": "Rascal Does Not Dream Series",
+          "name_source": "https://store.aniplexusa.com/products/"
         },
         {
           "id": "angel-beats",
-          "title": "Angel Beats",
+          "title": "Angel Beats!",
           "url": "https://www.angelbeats.jp/",
           "source": "https://www.aniplex.co.jp/lineup/angelbeats/",
           "source_image": "https://www.aniplex.co.jp/SYS/CONTENTS/keyvisual_angelbeats/w700",
           "source_note": "Official Aniplex TV anime key visual.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/angel-beats.jpg"
+          "cover": "assets/covers/thumbnails/angel-beats.jpg",
+          "full_title": "Angel Beats!",
+          "name_source": "https://www.aniplex.co.jp/lineup/angelbeats/"
         },
         {
           "id": "saekano-series",
-          "title": "路人女主系列",
+          "title": "Saekano: How to Raise a Boring Girlfriend Series",
           "url": "https://www.saenai.tv/",
           "source": "https://www.saenai.tv/",
           "source_image": "https://www.saenai.tv/images/top/top_vsl_main1.png",
           "source_note": "Official Saekano Flat (second TV season) key visual represents the series.",
           "category": "Anime",
-          "cover": "assets/covers/thumbnails/saekano-series.jpg"
+          "cover": "assets/covers/thumbnails/saekano-series.jpg",
+          "full_title": "Saekano: How to Raise a Boring Girlfriend (series)",
+          "name_source": "https://www.saekano.com/"
         }
       ],
       "layout": "list"
@@ -98,23 +116,27 @@
       "items": [
         {
           "id": "mahoutsukai-no-yoru",
-          "title": "Mahoutsukai no Yoru",
+          "title": "Witch on the Holy Night",
           "url": "https://store.steampowered.com/app/2052410/",
           "source": "https://store.steampowered.com/app/2052410/",
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2052410/library_600x900.jpg",
           "source_note": "Official Steam library cover.",
           "category": "Visual Novels",
-          "cover": "assets/covers/thumbnails/mahoutsukai-no-yoru.jpg"
+          "cover": "assets/covers/thumbnails/mahoutsukai-no-yoru.jpg",
+          "full_title": "WITCH ON THE HOLY NIGHT",
+          "name_source": "https://store.steampowered.com/app/2052410/"
         },
         {
           "id": "atri",
-          "title": "ATRI",
+          "title": "ATRI -My Dear Moments-",
           "url": "https://store.steampowered.com/app/1230140/",
           "source": "https://store.steampowered.com/app/1230140/",
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1230140/library_600x900.jpg",
           "source_note": "Official Steam library cover.",
           "category": "Visual Novels",
-          "cover": "assets/covers/thumbnails/atri.jpg"
+          "cover": "assets/covers/thumbnails/atri.jpg",
+          "full_title": "ATRI -My Dear Moments-",
+          "name_source": "https://store.steampowered.com/app/1230140/"
         },
         {
           "id": "clannad-vn",
@@ -124,17 +146,21 @@
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/324160/library_600x900.jpg",
           "source_note": "Official Steam library cover.",
           "category": "Visual Novels",
-          "cover": "assets/covers/thumbnails/clannad-vn.jpg"
+          "cover": "assets/covers/thumbnails/clannad-vn.jpg",
+          "full_title": "CLANNAD",
+          "name_source": "https://store.steampowered.com/app/324160/"
         },
         {
           "id": "subarashiki-hibi",
-          "title": "Subarashiki Hibi",
+          "title": "Wonderful Everyday",
           "url": "https://store.steampowered.com/app/658620/",
           "source": "https://store.steampowered.com/app/658620/",
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/658620/library_600x900.jpg",
           "source_note": "Official Steam library cover.",
           "category": "Visual Novels",
-          "cover": "assets/covers/thumbnails/subarashiki-hibi.jpg"
+          "cover": "assets/covers/thumbnails/subarashiki-hibi.jpg",
+          "full_title": "Wonderful Everyday Down the Rabbit-Hole",
+          "name_source": "https://store.steampowered.com/app/658620/"
         },
         {
           "id": "nine-series",
@@ -144,17 +170,21 @@
           "source": "https://store.steampowered.com/app/976390/",
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/976390/library_600x900.jpg",
           "category": "Visual Novels",
-          "cover": "assets/covers/thumbnails/nine-series.jpg"
+          "cover": "assets/covers/thumbnails/nine-series.jpg",
+          "full_title": "9-nine- series",
+          "name_source": "https://store.steampowered.com/app/976390/"
         },
         {
           "id": "steins-gate",
-          "title": "Steins;Gate",
+          "title": "STEINS;GATE",
           "url": "https://store.steampowered.com/app/412830/",
           "source": "https://store.steampowered.com/app/412830/",
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/412830/library_600x900.jpg",
           "source_note": "Official Steam library cover.",
           "category": "Visual Novels",
-          "cover": "assets/covers/thumbnails/steins-gate.jpg"
+          "cover": "assets/covers/thumbnails/steins-gate.jpg",
+          "full_title": "STEINS;GATE",
+          "name_source": "https://store.steampowered.com/app/412830/"
         },
         {
           "id": "sakura-no-uta",
@@ -164,7 +194,9 @@
           "source_image": "https://www.keromakura.net/img/products/web_sakuuta.jpg",
           "source_note": "Original game product image from the developer’s official product catalog.",
           "category": "Visual Novels",
-          "cover": "assets/covers/thumbnails/sakura-no-uta.jpg"
+          "cover": "assets/covers/thumbnails/sakura-no-uta.jpg",
+          "full_title": "Sakura no Uta -To Dance Over the Cherry Blossoms-",
+          "name_source": "https://shiravune.com/archives/11127"
         }
       ],
       "layout": "list"
@@ -175,63 +207,75 @@
       "items": [
         {
           "id": "makeine",
-          "title": "败犬女主真是太多了",
+          "title": "Makeine: Too Many Losing Heroines!",
           "url": "https://makeine-anime.com/",
           "source": "https://makeine-anime.com/",
           "source_image": "https://makeine-anime.com/assets/img/top/main/kv_visual06.jpg",
           "source_note": "Official TV anime key visual.",
           "category": "Watching & Playing",
-          "cover": "assets/covers/thumbnails/makeine.jpg"
+          "cover": "assets/covers/thumbnails/makeine.jpg",
+          "full_title": "Makeine: Too Many Losing Heroines!",
+          "name_source": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines"
         },
         {
           "id": "gimai-seikatsu",
-          "title": "义妹生活",
+          "title": "Days with My Stepsister",
           "url": "https://gimaiseikatsu-anime.com/",
           "source": "https://gimaiseikatsu-anime.com/",
           "source_image": "https://gimaiseikatsu-anime.com/core_sys/images/main/home/kv01.jpg",
           "source_note": "Official TV anime key visual.",
           "category": "Watching & Playing",
-          "cover": "assets/covers/thumbnails/gimai-seikatsu.jpg"
+          "cover": "assets/covers/thumbnails/gimai-seikatsu.jpg",
+          "full_title": "Days with My Stepsister",
+          "name_source": "https://www.crunchyroll.com/series/G0XHWM190/days-with-my-stepsister"
         },
         {
           "id": "tsukihime-remake",
-          "title": "月姬R",
+          "title": "Tsukihime Remake",
           "url": "https://typemoon.com/products/tsukihime/",
           "source": "https://typemoon.com/products/tsukihime/",
           "source_image": "https://cache.typemoon.com/images/if5ff87f211396cb71d994418aba6ef0amg",
           "source_note": "Official TYPE-MOON key visual for Tsukihime -A piece of blue glass moon- (remake); original landscape aspect ratio preserved.",
           "category": "Watching & Playing",
-          "cover": "assets/covers/thumbnails/tsukihime-remake.jpg"
+          "cover": "assets/covers/thumbnails/tsukihime-remake.jpg",
+          "full_title": "TSUKIHIME -A piece of blue glass moon-",
+          "name_source": "https://tsukihime-en.com/"
         },
         {
           "id": "sakura-no-toki",
-          "title": "樱之刻",
+          "title": "Sakura no Toki",
           "url": "https://www.makura-soft.com/sakuranotoki/",
           "source": "https://www.keromakura.net/",
           "source_image": "https://www.keromakura.net/img/products/web_new_sakutoki.jpg",
           "source_note": "Sakura no Toki product image from the developer’s official catalog, distinct from Sakura no Uta; original landscape aspect ratio preserved.",
           "category": "Watching & Playing",
-          "cover": "assets/covers/thumbnails/sakura-no-toki.jpg"
+          "cover": "assets/covers/thumbnails/sakura-no-toki.jpg",
+          "full_title": "Sakura no Toki -Sakura no Mori no Shita wo Ayumu-",
+          "name_source": "https://www.makura-soft.com/sakuranotoki/"
         },
         {
           "id": "tsukikage-no-simulacre",
-          "title": "月影魅像",
+          "title": "Tsukikage no Simulacre",
           "url": "https://store.steampowered.com/app/1069230/",
           "source": "https://store.steampowered.com/app/1069230/",
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1069230/library_600x900.jpg",
-          "source_note": "Official Steam library cover for Tsukikage no Simulacre (月影のシミュラクル -解放の羽- / 月影魅像-解放之羽-).",
+          "source_note": "Official Steam library cover for Tsukikage no Simulacre: Kaihou no Hane.",
           "category": "Watching & Playing",
-          "cover": "assets/covers/thumbnails/tsukikage-no-simulacre.jpg"
+          "cover": "assets/covers/thumbnails/tsukikage-no-simulacre.jpg",
+          "full_title": "Tsukikage no Simulacre: Kaihou no Hane",
+          "name_source": "https://steamcommunity.com/app/1069230/announcements/"
         },
         {
           "id": "aokana",
-          "title": "苍之彼方的四重奏",
+          "title": "Aokana - Four Rhythms Across the Blue",
           "url": "https://store.steampowered.com/app/1044620/",
           "source": "https://store.steampowered.com/app/1044620/",
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1044620/library_600x900.jpg",
           "source_note": "Official Steam library cover for Aokana - Four Rhythms Across the Blue.",
           "category": "Watching & Playing",
-          "cover": "assets/covers/thumbnails/aokana.jpg"
+          "cover": "assets/covers/thumbnails/aokana.jpg",
+          "full_title": "Aokana - Four Rhythms Across the Blue",
+          "name_source": "https://store.steampowered.com/app/1044620/"
         }
       ]
     },
@@ -241,84 +285,100 @@
       "items": [
         {
           "id": "alice-kuonji",
-          "title": "久远寺有珠",
-          "url": "https://typemoon.com/products/mahoyo/character/",
-          "source": "https://typemoon.com/products/mahoyo/character/",
-          "source_image": "https://cache.typemoon.com/images/i1a15e54749c924b159ed1b84b5b56495mg",
-          "source_note": "TYPE-MOON official Mahoutsukai no Yoru character artwork for Alice Kuonji; head-and-shoulders crop of the individual transparent illustration, composited on a light background.",
+          "title": "Alice Kuonji",
+          "url": "https://mahoyo-en.com/character/",
+          "source": "https://mahoyo-en.com/gallery/",
+          "source_image": "https://mahoyo-en.com/assets/img/gallery/img_gallery04.jpg",
+          "source_note": "Official Witch on the Holy Night gallery CG: Alice reading on the green sofa in the Kuonji mansion.",
           "category": "Favorite Characters",
-          "cover": "assets/covers/characters/alice-kuonji.jpg"
+          "cover": "assets/covers/characters/alice-kuonji.jpg",
+          "full_title": "Alice Kuonji",
+          "name_source": "https://mahoyo-en.com/character/"
         },
         {
           "id": "nagisa-furukawa",
-          "title": "古河渚",
+          "title": "Nagisa Furukawa",
           "url": "https://www.tbs.co.jp/clannad/04chara/chara02.html",
-          "source": "https://www.tbs.co.jp/clannad/04chara/chara02.html",
-          "source_image": "https://www.tbs.co.jp/clannad/04chara/images/chara02.jpg",
-          "source_note": "TBS official CLANNAD character artwork for Nagisa Furukawa; head-and-shoulders crop of the individual character illustration.",
+          "source": "https://www.tbs.co.jp/clannad/03story/story14.html",
+          "source_image": "https://www.tbs.co.jp/clannad/03story/images/story14/top_img.jpg",
+          "source_note": "Official TBS CLANNAD After Story episode 14 preview still: Nagisa smiling in a warmly lit room.",
           "category": "Favorite Characters",
-          "cover": "assets/covers/characters/nagisa-furukawa.jpg"
+          "cover": "assets/covers/characters/nagisa-furukawa.jpg",
+          "full_title": "Nagisa Furukawa",
+          "name_source": "https://www.goodsmile.com/en/product/4680/Nendoroid%2BNagisa%2BFurukawa"
         },
         {
           "id": "asuna",
-          "title": "亚斯娜",
+          "title": "Asuna",
           "url": "https://www.swordart-online.net/aincrad/character/",
-          "source": "https://www.swordart-online.net/aincrad/character/",
-          "source_image": "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png",
-          "source_note": "Asuna in her Aincrad outfit; head-and-shoulders crop from the official anime character model sheet.",
+          "source": "https://www.swordart-online.net/aincrad/story/?id=ep11",
+          "source_image": "https://www.swordart-online.net/aincrad/story/SYS/CONTENTS/story_914_photo_1590724047996666754",
+          "source_note": "Official Sword Art Online: Aincrad episode 11 still: Asuna smiling outside the forest cabin.",
           "category": "Favorite Characters",
-          "cover": "assets/covers/characters/asuna.jpg"
+          "cover": "assets/covers/characters/asuna.jpg",
+          "full_title": "Asuna Yuuki",
+          "name_source": "https://sao-alicization.com/character/?chara=asuna"
         },
         {
           "id": "sylphiette",
-          "title": "希露菲",
+          "title": "Sylphiette",
           "url": "https://mushokutensei.jp/character/",
-          "source": "https://natalie.mu/comic/gallery/news/567869/2253527",
-          "source_image": "https://ogre.natalie.mu/media/news/comic/2024/0219/musyokutensei2_chara_04.jpg?imdensity=1&imwidth=750",
-          "source_note": "Official Mushoku Tensei II second-cour Sylphiette character-design artwork reproduced by Comic Natalie; cropped to the front-facing portrait.",
+          "source": "https://natalie.mu/comic/gallery/news/567869/2287803",
+          "source_image": "https://ogre.natalie.mu/media/news/comic/2024/0403/MT2_ep13_0140.jpg?impolicy=twitter_card_face_crop",
+          "source_note": "Official Mushoku Tensei II episode 13 preview still, reproduced by Comic Natalie: Sylphiette smiling in a wood-paneled room.",
           "category": "Favorite Characters",
           "cover": "assets/covers/characters/sylphiette.jpg",
-          "official_announcement": "https://x.com/mushokutensei_A/status/1759503337442148369"
+          "official_announcement": "https://mushokutensei.jp/news/240403_1/",
+          "full_title": "Sylphiette",
+          "name_source": "https://www.goodsmile.com/en/product/11676"
         },
         {
           "id": "shiki-ryougi",
-          "title": "两仪式",
-          "url": "https://www.asahi.co.jp/smp/anime/karano/chara.html",
-          "source": "https://www.asahi.co.jp/smp/anime/karano/chara.html",
-          "source_image": "https://www.asahi.co.jp/smp/anime/karano/img/vis_shiki.jpg",
-          "source_note": "ABC/Asahi official Kara no Kyoukai character artwork for Shiki Ryougi; head-and-shoulders crop preserving the original dark backdrop.",
+          "title": "Shiki Ryougi",
+          "url": "https://www.karanokyoukai.com/archive/chapter7.html",
+          "source": "https://www.karanokyoukai.com/archive/chapter7.html",
+          "source_image": "https://www.karanokyoukai.com/archive/images/images-c7/chap7_cut/p011.jpg",
+          "source_note": "Official The Garden of Sinners chapter 7 gallery still: Shiki in a rainy, blue-lit scene.",
           "category": "Favorite Characters",
-          "cover": "assets/covers/characters/shiki-ryougi.jpg"
+          "cover": "assets/covers/characters/shiki-ryougi.jpg",
+          "full_title": "Shiki Ryougi",
+          "name_source": "https://www.goodsmile.com/en/product/363/Shiki%2BRyougi"
         },
         {
           "id": "megumi-kato",
-          "title": "加藤惠",
+          "title": "Megumi Kato",
           "url": "https://saenai-movie.com/character/megumi_kato/",
-          "source": "https://saenai-movie.com/character/megumi_kato/",
-          "source_image": "https://saenai-movie.com/shared/img/character/c02_main.png",
-          "source_note": "Megumi Kato; portrait crop from the official Saekano the Movie: Finale character illustration.",
+          "source": "https://saenai-movie.com/story/",
+          "source_image": "https://saenai-movie.com/shared/img/story/summary_ph05.jpg",
+          "source_note": "Official Saekano the Movie: Finale story-page still: Megumi in a warm scene filled with petals.",
           "category": "Favorite Characters",
-          "cover": "assets/covers/characters/megumi-kato.jpg"
+          "cover": "assets/covers/characters/megumi-kato.jpg",
+          "full_title": "Megumi Kato",
+          "name_source": "https://www.saekano.com/story/introduction.html"
         },
         {
           "id": "sinon",
-          "title": "诗乃",
+          "title": "Sinon",
           "url": "https://www.swordart-online.net/phantom/character/",
-          "source": "https://www.swordart-online.net/phantom/character/",
-          "source_image": "https://www.swordart-online.net/phantom/assets/img/chara/big/02_shinon.png",
-          "source_note": "Sinon (Shino Asada) in her Gun Gale Online avatar; portrait crop from the official Phantom Bullet character model sheet.",
+          "source": "https://www.swordart-online.net/phantom/story/?id=ep09",
+          "source_image": "https://www.swordart-online.net/phantom/story/SYS/CONTENTS/story_937_photo_1591003910519264507",
+          "source_note": "Official Sword Art Online: Phantom Bullet episode 9 still: Sinon focused in a Gun Gale Online forest.",
           "category": "Favorite Characters",
-          "cover": "assets/covers/characters/sinon.jpg"
+          "cover": "assets/covers/characters/sinon.jpg",
+          "full_title": "Sinon (Shino Asada)",
+          "name_source": "https://sao-alicization.com/character/?chara=sinon"
         },
         {
           "id": "yuuki-konno",
-          "title": "优纪（SAO）",
+          "title": "Yuuki (SAO)",
           "url": "https://www.swordart-online.net/mothers/character/",
-          "source": "https://www.swordart-online.net/mothers/character/",
-          "source_image": "https://www.swordart-online.net/mothers/assets/img/chara/big/02_yuki.png",
-          "source_note": "Yuuki Konno, the Mother's Rosario character; portrait crop from the official anime model sheet, distinct from Asuna.",
+          "source": "https://www.swordart-online.net/mothers/story/?id=ep19",
+          "source_image": "https://www.swordart-online.net/mothers/story/SYS/CONTENTS/story_949_photo_159100820558233981",
+          "source_note": "Official Sword Art Online: Mother's Rosario episode 19 still: Yuuki smiling and making a victory sign.",
           "category": "Favorite Characters",
-          "cover": "assets/covers/characters/yuuki-konno.jpg"
+          "cover": "assets/covers/characters/yuuki-konno.jpg",
+          "full_title": "Yuuki (Sword Art Online)",
+          "name_source": "https://www.swordart-onlineusa.com/chronology/"
         }
       ]
     }

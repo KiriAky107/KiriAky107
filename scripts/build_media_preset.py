@@ -59,6 +59,7 @@ CSS = """.items-wrapper { margin: 0; padding: 0; }
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
+  min-width: 0;
   white-space: normal;
   overflow-wrap: anywhere;
 }
@@ -72,17 +73,28 @@ CSS = """.items-wrapper { margin: 0; padding: 0; }
 #profile-media .compact .media-title { font-size: 16px; line-height: 23px; }
 #profile-media .media-list.characters {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 14px;
 }
-#profile-media .characters .media-entry { flex-direction: column; gap: 8px; }
+#profile-media .characters .media-entry {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  min-width: 0;
+}
 #profile-media .characters .media-cover {
-  width: 78px;
-  height: 78px;
-  flex-basis: 78px;
-  border-radius: 12px;
+  width: 100%;
+  height: 123px;
+  flex-basis: 123px;
+  object-fit: cover;
+  border-radius: 8px;
 }
-#profile-media .characters .media-title { font-size: 16px; line-height: 23px; text-align: center; }
+#profile-media .characters .media-title {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: left;
+  padding: 0 2px;
+}
 @media (prefers-color-scheme: dark) {
   #profile-media {
     --media-text: #c9d1d9;
@@ -120,9 +132,9 @@ for (const group of catalog.sections) {
     entry.setAttribute('data-profile-title', item.title);
     const cover = element('img', 'media-cover');
     cover.setAttribute('src', item.image);
-    cover.setAttribute('alt', item.title + (group.layout === 'characters' ? ' portrait' : ' cover'));
-    cover.setAttribute('width', group.layout === 'characters' ? '78' : group.layout === 'compact' ? '42' : '50');
-    cover.setAttribute('height', group.layout === 'characters' ? '78' : group.layout === 'compact' ? '60' : '70');
+    cover.setAttribute('alt', item.title + (group.layout === 'characters' ? ' scene' : ' cover'));
+    cover.setAttribute('width', group.layout === 'characters' ? '219' : group.layout === 'compact' ? '42' : '50');
+    cover.setAttribute('height', group.layout === 'characters' ? '123' : group.layout === 'compact' ? '60' : '70');
     const title = element('span', 'media-title');
     title.textContent = item.title;
     entry.append(cover, title);
