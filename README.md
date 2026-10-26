@@ -1,8 +1,25 @@
+<blockquote>
+  <p><em>
+    哲学家们只是用不同的方式解释世界，而问题在于改变世界。<br>
+    The philosophers have only interpreted the world, in various ways; the point is to change it.<br>
+    Die Philosophen haben die Welt nur verschieden interpretiert; es kommt darauf an, sie zu verändern.
+  </em></p>
+  <p align="right">— Karl Marx, <em>Theses on Feuerbach</em> (1845)</p>
+</blockquote>
+
+<h2 align="center">About Me</h2>
+
 <p align="center">
-  <img src="./images/无职转生.png" width="100%" alt="Mushoku Tensei character artwork">
+  <em>I'm <strong>Kronecker</strong>, a <strong>Marxist–Leninist–Maoist</strong> and computer science student.</em>
 </p>
 
-<h1 align="center">Kronecker</h1>
+<p align="center">
+  <em>I read theory, write code and classical Chinese poetry, and arrange music for piano.</em>
+</p>
+
+<p align="center">
+  <em>I enjoy classical music and the stories and soundtracks of anime and visual novels.</em>
+</p>
 
 <p align="center">
   <a href="https://blog.kronecker.cc">Blog</a> ·
@@ -11,47 +28,17 @@
   <a href="mailto:kiriaky_107@outlook.com">Email</a>
 </p>
 
-<blockquote>
-  <p>
-    哲学家们只是用不同的方式解释世界，而问题在于改变世界。<br><br>
-    The philosophers have only interpreted the world, in various ways; the point is to change it.<br><br>
-    Die Philosophen haben die Welt nur verschieden interpretiert; es kommt darauf an, sie zu verändern.
-  </p>
-  <p align="right">— Karl Marx, <em>Theses on Feuerbach</em> (1845)</p>
-</blockquote>
+<br>
 
-## About Me
+<p align="center">
+  <img src="./images/无职转生.png" width="100%" alt="Mushoku Tensei character artwork">
+</p>
 
-I'm Kronecker, a computer science student and a Marxist–Leninist–Maoist. I write code and poetry, arrange music for piano, and enjoy anime and visual novels.
+<h2 align="center">Anime &amp; Visual Novels</h2>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Theory &amp; Practice</h3>
-      <p>Dialectical and historical materialism, political economy, and the lives and struggles of working people.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Code &amp; Systems</h3>
-      <p>Algorithms, open source, and useful tools. I enjoy understanding how things work and building things I need.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Piano &amp; Music</h3>
-      <p>Piano arrangements, classical music, and the soundtracks of anime and visual novels.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Poetry &amp; Writing</h3>
-      <p>Classical Chinese poetry, essays, and reading notes—personal experience alongside reflections on history and society.</p>
-    </td>
-  </tr>
-</table>
+<h3 align="center">Anime</h3>
 
-## Anime & Visual Novels
-
-### Anime
-
-<table>
+<table align="center" width="100%">
   <tr>
     <td align="center" width="33%">
       <a href="https://mushokutensei.jp/news/1206-03/"><img src="./assets/covers/mushoku-tensei.png" width="100" alt="Mushoku Tensei official key visual"></a><br>
@@ -68,11 +55,11 @@ I'm Kronecker, a computer science student and a Marxist–Leninist–Maoist. I w
   </tr>
 </table>
 
-Also: **Your Lie in April · Fate series · CLANNAD**
+<p align="center"><sub>Also: Your Lie in April · Fate series · CLANNAD</sub></p>
 
-### Visual Novels
+<h3 align="center">Visual Novels</h3>
 
-<table>
+<table align="center" width="100%">
   <tr>
     <td align="center" width="33%">
       <a href="https://store.steampowered.com/app/2052410/WITCH_ON_THE_HOLY_NIGHT/"><img src="./assets/covers/witch-on-the-holy-night.jpg" width="100" alt="Witch on the Holy Night official cover"></a><br>
@@ -89,9 +76,15 @@ Also: **Your Lie in April · Fate series · CLANNAD**
   </tr>
 </table>
 
-Also: **Wonderful Everyday · 9-nine- series · STEINS;GATE · Sakura no Uta**
+<p align="center"><sub>Also: Wonderful Everyday · 9-nine- series · STEINS;GATE · Sakura no Uta</sub></p>
 
-## Selected Work
+---
+
+<details>
+<summary>More</summary>
+<br>
+
+### Writing & Projects
 
 | Repository | What you'll find |
 | :--- | :--- |
@@ -100,8 +93,7 @@ Also: **Wonderful Everyday · 9-nine- series · STEINS;GATE · Sakura no Uta**
 | [Modern Python Notes](https://github.com/KiriAky107/python-modern-notes-examples) | Python fundamentals, software engineering, and practical examples. [Read online](https://kiriaky107.github.io/python-modern-notes-examples/) |
 | [OpenNexus](https://github.com/KiriAky107/OpenNexus) | A local-first AI notebook and knowledge workspace. |
 
-<details>
-  <summary>Tools &amp; Technologies</summary>
+### Tools & Technologies
 
 | Area | Tools |
 | :--- | :--- |
@@ -111,16 +103,9 @@ Also: **Wonderful Everyday · 9-nine- series · STEINS;GATE · Sakura no Uta**
 | AI Applications | Agent · RAG · Skill · Plugin · MCP · Ollama |
 | Development | Git · Linux · Docker · GitHub Actions |
 
-</details>
+### Activity
 
-## Activity
-
-<img src="./profile-3d-contrib/profile-custom.svg" width="100%" alt="GitHub contributions in 3D, with light and dark themes">
-
-<details>
-  <summary>Statistics &amp; Languages</summary>
-
-<table>
+<table align="center" width="100%">
   <tr>
     <td width="50%" valign="top">
       <picture>
@@ -137,10 +122,9 @@ Also: **Wonderful Everyday · 9-nine- series · STEINS;GATE · Sakura no Uta**
   </tr>
 </table>
 
-</details>
+<img src="./profile-3d-contrib/profile-custom.svg" width="100%" alt="GitHub contributions in 3D, with light and dark themes">
 
-<details>
-  <summary>Contribution Snake</summary>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
