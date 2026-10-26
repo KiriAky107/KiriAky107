@@ -11,9 +11,12 @@ on:
       - .github/workflows/profile-refresh.yml
       - .github/profile-3d-settings.json
       - .github/profile-media.json
+      - .github/profile-content.json
       - scripts/check_profile.py
       - scripts/build_media_preset.py
+      - scripts/build_profile_cards.py
       - assets/covers/**
+      - assets/icons/**
       - README.md
 
 permissions: {}
@@ -50,7 +53,17 @@ jobs:
             profile/snake-light.svg \
             profile/snake-dark.svg \
             profile/media.svg \
+            profile/project-notes-articles.svg \
+            profile/project-cpp-acm-notes.svg \
+            profile/project-modern-python-notes.svg \
+            profile/project-opennexus.svg \
+            profile/technologies.svg \
             profile-3d-contrib/profile-custom.svg
+
+      - name: Generate project and technology cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/build_profile_cards.py
 
       - name: Generate public statistics for light mode
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
@@ -143,8 +156,8 @@ jobs:
       - name: Collect the rendered media card
         run: install -D -m 644 -- /metrics_renders/media.svg profile/media.svg
 
-      - name: Validate all eight generated images
-        run: python3 scripts/check_profile.py --generated
+      - name: Validate all generated images
+        run: python3 scripts/check_profile.py --generated --readme
 
       - name: Upload only validated images
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -161,6 +174,11 @@ jobs:
             profile/snake-light.svg
             profile/snake-dark.svg
             profile/media.svg
+            profile/project-notes-articles.svg
+            profile/project-cpp-acm-notes.svg
+            profile/project-modern-python-notes.svg
+            profile/project-opennexus.svg
+            profile/technologies.svg
             profile-3d-contrib/profile-custom.svg
 
   publish:
@@ -184,7 +202,7 @@ jobs:
           path: ${{ runner.temp }}/profile-generated
           digest-mismatch: error
 
-      - name: Copy the eight expected images
+      - name: Copy the expected profile images
         env:
           PROFILE_ARTIFACT_DIR: ${{ runner.temp }}/profile-generated
         run: |
@@ -197,13 +215,18 @@ jobs:
             profile/snake-light.svg \
             profile/snake-dark.svg \
             profile/media.svg \
+            profile/project-notes-articles.svg \
+            profile/project-cpp-acm-notes.svg \
+            profile/project-modern-python-notes.svg \
+            profile/project-opennexus.svg \
+            profile/technologies.svg \
             profile-3d-contrib/profile-custom.svg
           do
             install -D -m 644 -- "$PROFILE_ARTIFACT_DIR/$profile_file" "$profile_file"
           done
 
       - name: Validate downloaded images
-        run: python3 scripts/check_profile.py --generated
+        run: python3 scripts/check_profile.py --generated --readme
 
       - name: Commit and push only generated images
         run: |
@@ -218,6 +241,11 @@ jobs:
             profile/snake-light.svg \
             profile/snake-dark.svg \
             profile/media.svg \
+            profile/project-notes-articles.svg \
+            profile/project-cpp-acm-notes.svg \
+            profile/project-modern-python-notes.svg \
+            profile/project-opennexus.svg \
+            profile/technologies.svg \
             profile-3d-contrib/profile-custom.svg
           if git diff --cached --quiet; then
             echo "Profile images are already up to date."

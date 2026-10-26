@@ -1,0 +1,89 @@
+{
+  "projects": [
+    {
+      "id": "notes-articles",
+      "repository": "KiriAky107/Notes-Articles",
+      "url": "https://github.com/KiriAky107/Notes-Articles",
+      "title": "Notes & Articles",
+      "description": "Essays, philosophy reading notes, and original poetry.",
+      "language_fallback": "Writing"
+    },
+    {
+      "id": "cpp-acm-notes",
+      "repository": "KiriAky107/cpp-acm-notes-solutions",
+      "url": "https://github.com/KiriAky107/cpp-acm-notes-solutions",
+      "title": "C++ / ACM Notes",
+      "description": "Algorithms, problem solving, diagrams, and runnable examples.",
+      "language_fallback": "Notes",
+      "read_online": "https://kiriaky107.github.io/cpp-acm-notes-solutions/"
+    },
+    {
+      "id": "modern-python-notes",
+      "repository": "KiriAky107/python-modern-notes-examples",
+      "url": "https://github.com/KiriAky107/python-modern-notes-examples",
+      "title": "Modern Python Notes",
+      "description": "Python fundamentals, software engineering, and practical examples.",
+      "language_fallback": "Notes",
+      "read_online": "https://kiriaky107.github.io/python-modern-notes-examples/"
+    },
+    {
+      "id": "opennexus",
+      "repository": "KiriAky107/OpenNexus",
+      "url": "https://github.com/KiriAky107/OpenNexus",
+      "title": "OpenNexus",
+      "description": "A local-first AI notebook and knowledge workspace.",
+      "language_fallback": "Project"
+    }
+  ],
+  "technology_groups": [
+    {
+      "title": "Languages",
+      "items": [
+        { "label": "C++", "icon": "cplusplus" },
+        { "label": "Python", "icon": "python" },
+        { "label": "Rust", "icon": "rust" },
+        { "label": "TypeScript", "icon": "typescript" }
+      ]
+    },
+    {
+      "title": "Desktop & UI",
+      "items": [
+        { "label": "Tauri 2", "icon": "tauri" },
+        { "label": "Vue 3", "icon": "vuedotjs" },
+        { "label": "Vite", "icon": "vite" },
+        { "label": "Pinia", "icon": "pinia" }
+      ]
+    },
+    {
+      "title": "Services & Data",
+      "items": [
+        { "label": "FastAPI", "icon": "fastapi" },
+        { "label": "Pydantic", "icon": "pydantic" },
+        { "label": "SQLite", "icon": "sqlite" },
+        { "label": "FTS5", "icon": "search" },
+        { "label": "sqlite-vec", "icon": "vector" },
+        { "label": "PostgreSQL", "icon": "postgresql" }
+      ]
+    },
+    {
+      "title": "AI Applications",
+      "items": [
+        { "label": "Agent", "icon": "agent" },
+        { "label": "RAG", "icon": "rag" },
+        { "label": "Skill", "icon": "skill" },
+        { "label": "Plugin", "icon": "plugin" },
+        { "label": "MCP", "icon": "modelcontextprotocol" },
+        { "label": "Ollama", "icon": "ollama" }
+      ]
+    },
+    {
+      "title": "Development",
+      "items": [
+        { "label": "Git", "icon": "git" },
+        { "label": "Linux", "icon": "linux" },
+        { "label": "Docker", "icon": "docker" },
+        { "label": "GitHub Actions", "icon": "githubactions" }
+      ]
+    }
+  ]
+}

@@ -58,16 +58,11 @@
 <img src="./profile/snake-light.svg" width="100%" alt="Snake animation generated from GitHub contributions">
 </picture></p>
 <h3>Writing &amp; Projects</h3>
-<p><strong><a href="https://github.com/KiriAky107/Notes-Articles">Notes &amp; Articles</a></strong><br><sub>Essays, philosophy reading notes, and original poetry.</sub></p>
-<p><strong><a href="https://github.com/KiriAky107/cpp-acm-notes-solutions">C++ / ACM Notes</a></strong><br><sub>Algorithms, problem solving, diagrams, and runnable examples. <a href="https://kiriaky107.github.io/cpp-acm-notes-solutions/">Read online</a></sub></p>
-<p><strong><a href="https://github.com/KiriAky107/python-modern-notes-examples">Modern Python Notes</a></strong><br><sub>Python fundamentals, software engineering, and practical examples. <a href="https://kiriaky107.github.io/python-modern-notes-examples/">Read online</a></sub></p>
-<p><strong><a href="https://github.com/KiriAky107/OpenNexus">OpenNexus</a></strong><br><sub>A local-first AI notebook and knowledge workspace.</sub></p>
-<h3>Tools &amp; Technologies</h3>
-<p><strong>Languages</strong><br><sub>C++ · Python · Rust · TypeScript</sub></p>
-<p><strong>Desktop &amp; UI</strong><br><sub>Tauri 2 · Vue 3 · Vite · Pinia</sub></p>
-<p><strong>Services &amp; Data</strong><br><sub>FastAPI · Pydantic · SQLite / FTS5 / sqlite-vec · PostgreSQL</sub></p>
-<p><strong>AI Applications</strong><br><sub>Agent · RAG · Skill · Plugin · MCP · Ollama</sub></p>
-<p><strong>Development</strong><br><sub>Git · Linux · Docker · GitHub Actions</sub></p>
+<p><a href="https://github.com/KiriAky107/Notes-Articles"><img src="./profile/project-notes-articles.svg" width="100%" alt="Notes &amp; Articles — essays, philosophy reading notes, and original poetry. Open the repository."></a></p>
+<p><a href="https://github.com/KiriAky107/cpp-acm-notes-solutions"><img src="./profile/project-cpp-acm-notes.svg" width="100%" alt="C++ / ACM Notes — algorithms, problem solving, diagrams, and runnable examples. Open the repository."></a><br><sub><a href="https://kiriaky107.github.io/cpp-acm-notes-solutions/">Read online →</a></sub></p>
+<p><a href="https://github.com/KiriAky107/python-modern-notes-examples"><img src="./profile/project-modern-python-notes.svg" width="100%" alt="Modern Python Notes — Python fundamentals, software engineering, and practical examples. Open the repository."></a><br><sub><a href="https://kiriaky107.github.io/python-modern-notes-examples/">Read online →</a></sub></p>
+<p><a href="https://github.com/KiriAky107/OpenNexus"><img src="./profile/project-opennexus.svg" width="100%" alt="OpenNexus — a local-first AI notebook and knowledge workspace. Open the repository."></a></p>
+<p><img src="./profile/technologies.svg" width="100%" alt="Tools and technologies: Languages, Desktop &amp; UI, Services &amp; Data, AI Applications, and Development."></p>
 </td>
 <td width="50%" valign="top">
 <p><a href="./docs/MEDIA.md"><img src="./profile/media.svg" width="100%" alt="Favorite anime and visual novels, what I'm watching and playing, and favorite characters. Open for titles, artist credits, and artwork sources."></a></p>
