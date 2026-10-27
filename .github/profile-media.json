@@ -27,14 +27,14 @@
         },
         {
           "id": "garden-of-sinners",
-          "title": "The Garden of Sinners",
+          "title": "Kara no Kyoukai",
           "url": "https://aniplexusa.com/thegardenofsinners/",
           "source": "https://aniplexusa.com/thegardenofsinners/",
           "source_note": "Official Aniplex USA promotional visual.",
           "category": "Anime",
           "cover": "assets/covers/thumbnails/garden-of-sinners.jpg",
-          "full_title": "The Garden of Sinners",
-          "name_source": "https://aniplexusa.com/thegardenofsinners/"
+          "full_title": "Kara no Kyoukai",
+          "name_source": "https://www.karanokyoukai.com/"
         },
         {
           "id": "your-lie-in-april",
@@ -74,15 +74,15 @@
         },
         {
           "id": "aobuta-series",
-          "title": "Rascal Does Not Dream Series",
+          "title": "Seishun Buta Yarou Series",
           "url": "https://ao-buta.com/",
           "source": "https://www.aniplex.co.jp/lineup/ao-buta/",
           "source_image": "https://www.aniplex.co.jp/SYS/CONTENTS/keyvisual_ao-buta/w700",
           "source_note": "Official Aniplex key visual for the first TV anime represents the series.",
           "category": "Anime",
           "cover": "assets/covers/thumbnails/aobuta-series.jpg",
-          "full_title": "Rascal Does Not Dream Series",
-          "name_source": "https://store.aniplexusa.com/products/"
+          "full_title": "Seishun Buta Yarou Series",
+          "name_source": "https://ao-buta.com/"
         },
         {
           "id": "angel-beats",
@@ -98,15 +98,15 @@
         },
         {
           "id": "saekano-series",
-          "title": "Saekano: How to Raise a Boring Girlfriend Series",
+          "title": "Saenai Heroine no Sodatekata Series",
           "url": "https://www.saenai.tv/",
           "source": "https://www.saenai.tv/",
           "source_image": "https://www.saenai.tv/images/top/top_vsl_main1.png",
           "source_note": "Official Saekano Flat (second TV season) key visual represents the series.",
           "category": "Anime",
           "cover": "assets/covers/thumbnails/saekano-series.jpg",
-          "full_title": "Saekano: How to Raise a Boring Girlfriend (series)",
-          "name_source": "https://www.saekano.com/"
+          "full_title": "Saenai Heroine no Sodatekata Series",
+          "name_source": "https://saenai-movie.com/"
         }
       ],
       "layout": "list"
@@ -152,15 +152,15 @@
         },
         {
           "id": "subarashiki-hibi",
-          "title": "Wonderful Everyday",
+          "title": "Subarashiki Hibi",
           "url": "https://store.steampowered.com/app/658620/",
           "source": "https://store.steampowered.com/app/658620/",
           "source_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/658620/library_600x900.jpg",
           "source_note": "Official Steam library cover.",
           "category": "Visual Novels",
           "cover": "assets/covers/thumbnails/subarashiki-hibi.jpg",
-          "full_title": "Wonderful Everyday Down the Rabbit-Hole",
-          "name_source": "https://store.steampowered.com/app/658620/"
+          "full_title": "Subarashiki Hibi ~Furenzoku Sonzai~",
+          "name_source": "https://www.keroq.co.jp/suba/info.html"
         },
         {
           "id": "nine-series",

@@ -1,6 +1,6 @@
 # Media & Characters
 
-English titles, artist credits, and artwork sources for the profile gallery. Titles use English release names where available, or established romanizations.
+Titles, artist credits, and artwork sources for the profile gallery. Titles use English release names or romanized Japanese titles.
 
 ## Anime
 
@@ -8,13 +8,13 @@ English titles, artist credits, and artwork sources for the profile gallery. Tit
 | --- | --- | --- |
 | [Mushoku Tensei: Jobless Reincarnation](https://mushokutensei.jp/) | [Source](https://mushokutensei.jp/news/1206-03/) | First-season official key visual. |
 | [Sword Art Online](https://www.aniplex.co.jp/lineup/swordartonline/) | [Source](https://www.aniplex.co.jp/lineup/swordartonline/) | Official Aniplex series key visual. |
-| [The Garden of Sinners](https://aniplexusa.com/thegardenofsinners/) | [Source](https://aniplexusa.com/thegardenofsinners/) | Official Aniplex USA promotional visual. |
+| [Kara no Kyoukai](https://aniplexusa.com/thegardenofsinners/) | [Source](https://aniplexusa.com/thegardenofsinners/) | Official Aniplex USA promotional visual. |
 | [Your Lie in April](https://www.kimiuso.jp/) | [Source](https://a1p.jp/works/kimiuso/) | Official production-studio visual. |
 | [Fate Series](https://www.fate-sn.com/ubw/) | [Source](https://www.fate-sn.com/ubw/) | Fate/stay night [Unlimited Blade Works] key visual represents the series. |
 | [CLANNAD](https://www.tbs.co.jp/clannad/clannad1/) | [Source](https://www.tbs.co.jp/clannad/clannad1/) | First-season anime promotional visual from TBS; distinct from the visual-novel cover. |
-| [Rascal Does Not Dream Series](https://ao-buta.com/) | [Source](https://www.aniplex.co.jp/lineup/ao-buta/) | Official Aniplex key visual for the first TV anime represents the series. |
+| [Seishun Buta Yarou Series](https://ao-buta.com/) | [Source](https://www.aniplex.co.jp/lineup/ao-buta/) | Official Aniplex key visual for the first TV anime represents the series. |
 | [Angel Beats!](https://www.angelbeats.jp/) | [Source](https://www.aniplex.co.jp/lineup/angelbeats/) | Official Aniplex TV anime key visual. |
-| [Saekano: How to Raise a Boring Girlfriend (series)](https://www.saenai.tv/) | [Source](https://www.saenai.tv/) | Official Saekano Flat (second TV season) key visual represents the series. |
+| [Saenai Heroine no Sodatekata Series](https://www.saenai.tv/) | [Source](https://www.saenai.tv/) | Official Saekano Flat (second TV season) key visual represents the series. |
 
 ## Visual Novels
 
@@ -23,7 +23,7 @@ English titles, artist credits, and artwork sources for the profile gallery. Tit
 | [Witch on the Holy Night](https://store.steampowered.com/app/2052410/) | [Source](https://store.steampowered.com/app/2052410/) | Official Steam library cover. |
 | [ATRI -My Dear Moments-](https://store.steampowered.com/app/1230140/) | [Source](https://store.steampowered.com/app/1230140/) | Official Steam library cover. |
 | [CLANNAD](https://store.steampowered.com/app/324160/) | [Source](https://store.steampowered.com/app/324160/) | Official Steam library cover. |
-| [Wonderful Everyday Down the Rabbit-Hole](https://store.steampowered.com/app/658620/) | [Source](https://store.steampowered.com/app/658620/) | Official Steam library cover. |
+| [Subarashiki Hibi ~Furenzoku Sonzai~](https://store.steampowered.com/app/658620/) | [Source](https://store.steampowered.com/app/658620/) | Official Steam library cover. |
 | [9-nine- Series](https://store.steampowered.com/app/976390/) | [Source](https://store.steampowered.com/app/976390/) | Official 9-nine-:Episode 1 library cover represents the series. |
 | [STEINS;GATE](https://store.steampowered.com/app/412830/) | [Source](https://store.steampowered.com/app/412830/) | Official Steam library cover. |
 | [Sakura no Uta -To Dance Over the Cherry Blossoms-](https://www.makura-soft.com/sakuranouta/) | [Source](https://www.keromakura.net/) | Original game product image from the developer’s official product catalog. |
